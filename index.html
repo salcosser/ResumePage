@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -12,7 +13,7 @@
     <title>Sam Alcosser</title>
   </head>
   <body>
-      <div class="row">
+       <div class="row">
           <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">  
               <ul class="navbar-nav">
                 <li class="nav-item">
@@ -30,7 +31,12 @@
               </ul>
             </nav>
       </div>
-    <div class="jumbotron text-center" style="background-color:salmon">
+
+
+
+
+
+    <div class="jumbotron text-center" style="background-color:salmon; margin-top: 200px;">
       <h1 class="display-1">Sam Alcosser</h1>
       <p class="display-5">Computer Science student at Marist College</p>
     </div>
@@ -42,7 +48,7 @@
                 <a href="mailto:Samuel.Alcosser1@marist.edu"> 
                 <div class="card-body">
                       <i class='fas fa-envelope' style='font-size:3em;color:salmon'></i>
-                    <div class="card-header" style="text-align: center">Email</div>
+                    <div class="card-header" style="text-align: center; font-size:1em;">Email</div>
                 
                   </div> 
                 </a>
@@ -56,7 +62,7 @@
           <div class="card">
             <div class="card-body">
                <i class='fas fa-address-card' style='font-size:3em;color:salmon'></i>
-                <div class="card-header" style="text-align: center">Resume</div>  
+                <div class="card-header" style="text-align: center; font-size:1em;">Resume</div>  
             </div>
           </div>  
           </a>
@@ -67,7 +73,7 @@
           <div class="card">
             <div class="card-body">
                 <i class="fab fa-linkedin-in" style="font-size:3em;color:salmon"></i>
-                <div class="card-header" style="text-align: center">Linkedin</div>
+                <div class="card-header" style="text-align: center; font-size:1em;">Linkedin</div>
             </div>
 
           </div>
@@ -78,7 +84,7 @@
             <div class="card">
                 <div class="card-body">
                       <i class="fab fa-github" style="font-size:3em;color:salmon"></i>
-                    <div class="card-header" style="text-align: center">GitHub</div>
+                    <div class="card-header" style="text-align: center; font-size:1em;">GitHub</div>
                 </div>
 
             </div>
@@ -146,13 +152,13 @@
                     <!-- The slideshow -->
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img src="img/homepage.PNG" alt="homepage" width="800" height="500">
+                        <img src="img/homepage.PNG" alt="homepage" width="100%" height="100%">
                       </div>
                       <div class="carousel-item">
-                        <img src="img/tracker.PNG" alt="tracker" width="800" height="500">
+                        <img src="img/tracker.PNG" alt="tracker" width="100%" height="100%">
                       </div>
                       <div class="carousel-item">
-                        <img src="img/metrics.PNG" alt="metrics" width="800" height="500">
+                        <img src="img/metrics.PNG" alt="metrics" width="100%" height="100%">
                       </div>
                     </div>
                     
@@ -174,9 +180,12 @@
                    <p>This line of code is used to retrive the object for the exercise by the exercise name that was selected from the dropdown menu
                      from the SQL database using hibernate query language, or HQL for short.
                    </p>
-                   <code>
-                      List &lt;exercises&gt; exIdFinder = sessionE.createQuery("from exercises e where e.name = '"+ excerciseSelector.getSelectedItem().toString() + "'").getResultList();
-                     </code>
+                  <div class="card-header">
+                      <code>
+                          List &lt;exercises&gt; exIdFinder = sessionE.createQuery("from exercises e where e.name = '"+ excerciseSelector.getSelectedItem().toString() + "'").getResultList();
+                         </code>
+                  </div>
+                  
                  </div>
 
                 
@@ -226,10 +235,10 @@ how many times the deck is shuffled, as the computer plays against itself. The i
                         <!-- The slideshow -->
                         <div class="carousel-inner">
                           <div class="carousel-item active">
-                            <img src="img/table.PNG" alt="table" width="800" height="500">
+                            <img src="img/table.PNG" alt="table" width="100%" height="100%">
                           </div>
                           <div class="carousel-item">
-                            <img src="img/console.PNG" alt="console" width="800" height="500">
+                            <img src="img/console.PNG" alt="console" width="100%" height="100%">
                           </div>
                         </div>
                         
@@ -252,9 +261,12 @@ how many times the deck is shuffled, as the computer plays against itself. The i
                             This line shows what happens when the two "players" place a card down. Their cards are taken from their hands and put into a holder
                             called the tempstack, used to hold the cards in play during a hand.
                         </p>
-                        <code>
-                            tempstack.append(self.player2H.pop(0)) 
-                          </code>
+                        <div class="card-header">
+                            <code>
+                                tempstack.append(self.player2H.pop(0)) 
+                              </code>
+                        </div>
+                        
                       </div>
      
                      
@@ -310,16 +322,16 @@ how many times the deck is shuffled, as the computer plays against itself. The i
                         <!-- The slideshow -->
                         <div class="carousel-inner">
                           <div class="carousel-item active">
-                            <img src="img/homepage 1.PNG" alt="home1" width="1200" height="500">
+                            <img src="img/homepage 1.PNG" alt="home1" width="50%" height="50%">
                           </div>
                           <div class="carousel-item">
-                            <img src="img/homepage 2.PNG" alt="home2" width="1200" height="500">
+                            <img src="img/homepage 2.PNG" alt="home2" width="50%" height="50%">
                           </div>
                           <div class="carousel-item">
-                              <img src="img/Gallery page.PNG" alt="gallery" width="1200" height="500">
+                              <img src="img/Gallery page.PNG" alt="gallery" width="50%" height="50%">
                             </div>
                          <div class="carousel-item">
-                                <img src="img/Team Forum Login.PNG" alt="forum" width="1200" height="500">
+                                <img src="img/Team Forum Login.PNG" alt="forum" width="50%" height="50%">
                               </div>
                         </div>
                         
@@ -340,9 +352,12 @@ how many times the deck is shuffled, as the computer plays against itself. The i
                         <h5>code snippet</h5>
                         <p>This line of code shows how PHP was used to format the page. Also it shows how bootstrap was used on the frontend to handle the picture.
                         </p>
-                        <code>
-                          $formatted_article.= "&ltimg class='scalable_pic' style='box-shadow:1px 1px 4px 2px' src='{$article["picture_link"]}'/>";
-                          </code>
+                        <div class="card-header">
+                            <code>
+                                $formatted_article.= "&ltimg class='scalable_pic' style='box-shadow:1px 1px 4px 2px' src='{$article["picture_link"]}'/>";
+                                </code>
+                        </div>
+                       
                       </div>
      
                      
