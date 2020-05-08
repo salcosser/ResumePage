@@ -2,7 +2,56 @@ body{
     background-color:gray;
     position: relative;
 }
-a:hover{
-
-    text-decoration: none;
+.jumbotron, .jumbotron-fluid{
+    background-image: url(img/5.jpg);
 }
+.jumbotron .display-1{
+  text-align: center;
+    color:white;
+}
+.display-3, {
+}
+.nav{
+    background-color: darkslategray;
+}
+.my-2{
+    border: .5px solid black;
+}
+#headline{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.card{
+    background-color: slategray;
+   /* transition: background  2s ease-in; */
+}
+
+#links{
+    font-size: 1.5em;
+    background-color:rgb(27, 44, 44);
+    margin-bottom: 75px;
+    padding-left: 20px;
+}
+#links ul{
+    font-weight: 500;
+   
+    font-family: 'Source Code Pro', monospace;
+    color:white;
+}
+#links a{
+    
+    color:darkorange;
+}
+
+#links #last{
+    border-right: 2px solid white;
+    margin: 0 auto;
+   
+   animation:
+    blink-caret .85s step-end infinite;
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+  }

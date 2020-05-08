@@ -1,0 +1,1 @@
+std::cout << "text" << std::endl;
