@@ -4,16 +4,14 @@ body{
 }
 .jumbotron, .jumbotron-fluid{
     background-image: url(img/5.jpg);
+    margin-bottom: 0px;
 }
 .jumbotron .display-1{
   text-align: center;
     color:white;
 }
-.display-3, {
-}
-.nav{
-    background-color: darkslategray;
-}
+
+
 .my-2{
     border: .5px solid black;
 }
@@ -21,9 +19,8 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
-.card{
-    background-color: slategray;
-   /* transition: background  2s ease-in; */
+#aboutMe{
+    background-color:red;
 }
 
 #links{
@@ -50,8 +47,16 @@ body{
    animation:
     blink-caret .85s step-end infinite;
 }
-
+.pageBreak{
+    border: 1px solid black;
+    border-radius:
+}
+.nbar{
+    margin-top:0px;
+    margin-bottom: 50px;
+}
 @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: white; }
   }
+

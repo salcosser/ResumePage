@@ -33,7 +33,15 @@
     
   </div>
 </div>
-
+<nav class="nav navbar-expand-sm bg-dark navbar-dark nbar">
+  <li class="nav-item">
+    <a class="nav-link active" href="#aboutMe" tabindex="-1" aria-disabled="true">About Me</a>
+  </li>
+  <li class="nav-item">
+    
+       <a class="nav-link active" href="#workoutTracker">Workout Tracker</a>
+  </li>
+</nav>
 <div class="container-fluid">
   <div class="row" id="links">
    
@@ -47,47 +55,39 @@
      
       
   </div>
+  
+  
+  
+  <div class="row" id="aboutMe">
+    <div class="col-12">
+      <blockquote class="blockquote text-center">
+        <p class="mb-0">No problem can be solved from the same level of conciousness that created it.</p>
+        <footer class="blockquote-footer">Albert Einstien</footer>
+      </blockquote>
+    </div>
+   <p>
+    This quote perfectly describes my programming style. I firmly believe that no piece of software, no matter what iteration or version, can be improved in some way.
+    Most of the time, these changes do not happen from staring at the source code for hours on end hoping to see something different. Most of the time, these changes come
+    from those times when the developer is simply driving, working out, or watching a movie, and they all of a sudden come up with a better solution to the problem. These are
+usually some of the best improvements that are made. To me, this is what separates constant debugging from developing.
+   </p>
+  </div>
+  
+  
+  
   <div class="row" id="workoutTracker">
     <div class="col-4">
-      <div id="demo" class="carousel slide" data-ride="carousel">
-
-        <!-- Indicators -->
-        <ul class="carousel-indicators">
-          <li data-target="#demo" data-slide-to="0" class="active"></li>
-          <li data-target="#demo" data-slide-to="1"></li>
-          <li data-target="#demo" data-slide-to="2"></li>
-        </ul>
-        
-        <!-- The slideshow -->
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/tracker.PNG" alt="Workout Tracker" width="1100" height="500">
-          </div>
-          <div class="carousel-item">
-            <img src="img/metrics.PNG" alt="Metrics" width="1100" height="500">
-          </div>
-          <div class="carousel-item">
-            <img src="img/homepage.PNG" alt="Homepage" width="1100" height="500">
-          </div>
-        </div>
-        
-        <!-- Left and right controls -->
-        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#demo" data-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </a>
-      </div>
+      <img class="img-fluid" src="img/wt.png" alt="workoutTracker">
     </div>
     <div class="col-8">
       <h1 class="display-3">Workout Tracker</h1>
+      <hr class="pageBreak">
       <h1 class="display-4">Workout logging software built using the Hibernate ORM</h1>
 
 
 
-      <p>
-        The project featured here is my final project for my software development 1 class. 
+      <p class="">
+        &nbsp The project featured here is my final project for my software development 1 class. 
         The goal was to make a workout tracker for myself that would let me keep track of the workouts that I do,
          as well as doing some minor metrics work. Because of the fact that there was going to be a fair amount of data
           that I would want to store in a non-volitile way, I knew that I would have to use a database. As stated in my
@@ -102,11 +102,10 @@
                calculate their max weight for each number of reps, from within the application. The main function is workout tracking by
                 exercise with weight, reps, and sets. Other functionality includes injury tracking, and the ability to look at basic metrics
                  including your hardest you've hit each exercise, and seeing the maximum weight you have ever used for each exercise. 
-                 Some side functionality is the ability to have multiple users. 
+                 Some side functionality is the ability to have multiple users. <a href="WorkoutTracker.html">Click here</a> for some more pictures and github links.
 
       </p>
-      
-
+        
      
        
     </script> 
