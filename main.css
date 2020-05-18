@@ -20,7 +20,8 @@ body{
     
 }
 #aboutMe{
-    background-color:red;
+    background-image:linear-gradient(white, lightgray);
+    margin-bottom: 30px;
 }
 
 #links{
