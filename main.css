@@ -1,5 +1,5 @@
 body{
-    background-color:gray;
+    
     position: relative;
 }
 .jumbotron, .jumbotron-fluid{
@@ -20,8 +20,11 @@ body{
     
 }
 #aboutMe{
-    background-image:linear-gradient(white, lightgray);
+    background-image:linear-gradient(salmon, red);
     margin-bottom: 30px;
+    border-radius: 5px 5px 5px 5px;
+    width: 95%;
+    margin-left:2.5%;
 }
 
 #links{
@@ -61,3 +64,11 @@ body{
     50% { border-color: white; }
   }
 
+.header-link:hover{
+    text-decoration: none;
+}
+
+.project-hl{
+    color:white;
+    background-color:limegreen;
+}
