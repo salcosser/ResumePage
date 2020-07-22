@@ -96,4 +96,10 @@ body{
  font-size: 300px;
  align-content: center;
 }
-
+/* span a is for most things,  li a is for the resume link*/
+span a{
+    text-decoration: underline;
+}
+li a{
+    text-decoration: underline;
+}
