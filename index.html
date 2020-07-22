@@ -30,16 +30,19 @@
 
    var prologue = document.getElementById('prologue');
     function fade(element) {
-    var op = 1;  // initial opacity
-    var timer = setInterval(function () {
-        if (op <= 0.04){
+      setTimeout(function(){
+        var op = 1;  // initial opacity
+        var timer = setInterval(function () {
+        if (op <= 0.08){
             clearInterval(timer);
             element.style.display = 'none';
         }
         element.style.opacity = op;
         element.style.filter = 'alpha(opacity=' + op * 100 + ")";
-        op -= op * 0.04;
+        op -= op * 0.08;
     }, 50);
+      },3500);
+  
 }
  
   </script>
