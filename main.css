@@ -57,7 +57,6 @@ body{
 }
 .nbar{
     margin-top:0px;
-    margin-bottom: 50px;
 }
 @keyframes blink-caret {
     from, to { border-color: transparent }
@@ -72,3 +71,26 @@ body{
     color:white;
     background-color:limegreen;
 }
+.nav-link{
+    color:salmon;
+}
+
+
+
+
+#prologue{
+    height:100vh;
+    width:auto;
+    background-color: white;
+    background-color: salmon;
+}
+
+#prologue blockquote{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 35vh;
+    font-size:4em;
+    color
+}
+
+
+
