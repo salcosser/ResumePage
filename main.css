@@ -2,7 +2,9 @@ body{
     
     position: relative;
 }
-
+.jumbotron{
+    background-color: white;
+}
 
 
 .my-2{
