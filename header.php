@@ -26,9 +26,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet"> 
 <link rel="stylesheet" href="main.css">
 </head>
-
 <body>
- 
+
 
 </div>
 <nav class="nav navbar-expand-sm bg-dark navbar-dark nbar">
@@ -53,3 +52,17 @@
        <a class="nav-link active" href="QnA.php">(Oddly Specific) Q and A</a>
   </li>
 </nav>
+<<<<<<< Updated upstream
+=======
+
+  
+<div class="container-fluid">
+      <div class="row">
+        <div class="jumbotron col-12" id="title">
+           <h2><span id="n"> 1 </span><span>//Sam Alcosser's Works Portfoli<span id="last">o</span></span></h2> 
+        </div>
+      
+        
+          
+      </div>
+>>>>>>> Stashed changes
