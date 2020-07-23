@@ -46,7 +46,7 @@ body{
     blink-caret .85s step-end infinite;
 }
 .display-3 #last{
-    border-right: 7px solid white;
+    border-right: 4px solid white;
     margin: 0 auto;
    
    animation:
