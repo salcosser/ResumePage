@@ -1,30 +1,7 @@
 <?php require("header.php");?>
 
   
-      <div class="container-fluid">
-      <div class="row" id="links">
-      
-        <ul class="list-unstyled" >
-          <li> <code> 1</code>  <span style="color:darkgreen"> /* </span> </li>
-          <li> <code> 2</code>  <span style="color:darkgreen"> /************************\ </span> </li> 
-          <li> <code> 3</code>  <span style="color:darkgreen">  </span> </li>
-          <li> <code> 4</code>  <span style="color:darkgreen">      Sam Alcosser</span> </li>
-          <li> <code> 5</code>  <span style="color:darkgreen">Student Software Developer</span> </li>
-          <li> <code> 6</code>  <span style="color:darkgreen">  </span>   </li>
-          <li> <code> 7</code>  <span style="color:darkgreen">\************************/</span>   </li>
-          <li> <code> 8</code>  <span style="color:darkgreen">*/ </span></li>
-          <li> <code> 9</code></li>
-          <li> <code>10</code></li>
-          <li> <code>11</code> <span style="color:darkgreen">// Links to Relevant Resources</span></li>
-          <li> <code>12</code> <span style="color:rgb(141, 220, 246)">console.</span><span style="color:lightgreen">log</span>(<span style="color:darkorange !important">"<a href="mailto:samalcosser@gmail.com">Email</a>"</span>);</li>
-          <li> <code>13</code> <span style="color:rgb(141, 220, 246)">System.out.</span><span style="color:lightgreen">println</span>("<a href="Resume-Jul20.pdf">Resume</a>");</li>   
-          <li> <code>14</code> <span style="color:lightgreen">std::</span><span style="color:rgb(141, 220, 246)">cout</span> <span style="color: lightgreen"><< </span><span style="color:darkorange !important">"<a href="https://www.linkedin.com/in/samuel-alcosser-9212b3181/">LinkedIn</a>"</span><span style="color:lightgreen"> << std::</span><span style="color:lightyellow">endl;</span></li>
-          <li> <code>15</code> <span style="color:rgb(43, 113, 226)">print</span>(<span style="color:darkorange">"<a href="https://github.com/salcosser">GitHub</a>"</span><span id="last">)</span></li>
 
-            </ul> 
-        
-          
-      </div>
       
 
 <div class="jumbotron">
@@ -143,17 +120,7 @@ redirect_to($url);
      
   
 
-<footer>
-<div class="row ft-head"><div class="col-12"><h4 class="text-center"> Sam Alcosser's Online Portfolio </h4></div></div>
-<div class="row info-pt">
-  <div class="col-6">
-    <p>Currently studying Computer Science at Marist College in Poughkeepsie, NY. Open to inquries about internships and entry level development jobs.</p>
-  </div>
-  <div class="col-6" >
-    <span> Personal Email: <a href="mailto:samalcosser@gmail.com">samalcosser@gmail.com</a></span><br />
-    <span> School Emali: <a href="mailto:samuel.alcosser1@marist.edu">samuel.alcosser1@marist.edu</a></span><br />
-  Fairfield, CT
 
-</footer>
+<?php require("footer.php");?>
 </body>
 </html>

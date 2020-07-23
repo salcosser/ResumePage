@@ -28,8 +28,7 @@ body{
 }
 #links ul{
     font-weight: 500;
-   
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Roboto Mono', monospace;
     color:white;
 }
 #links a{
@@ -37,8 +36,15 @@ body{
     color:darkorange;
 }
 
-#links #last{
+#last{
     border-right: 2px solid white;
+    margin: 0 auto;
+   
+   animation:
+    blink-caret .85s step-end infinite;
+}
+.display-3 #last{
+    border-right: 7px solid white;
     margin: 0 auto;
    
    animation:
@@ -68,10 +74,23 @@ body{
     color:salmon;
     text-decoration: none !important;
 }
+#title{
+    background-color: white;
+    width:100%;
+    font-family: 'Roboto Mono', monospace;
+    background-color:rgb(27, 44, 44);
+    padding:0px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
 
+#title h2{
 
-
-
+color: darkgreen;
+}
+#n{
+    color: gray !important; 
+}
 #prologue{
     height:100vh;
     width:auto;
@@ -195,4 +214,15 @@ ul{
   /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
   .sticky + .content {
     padding-top: 60px;
+  }
+  .icon{
+      height:50px;
+      width: 50px;
+  }
+  .links tr td{
+    margin-left:5px;
+    margin-right:5px;
+  }
+  .icon:hover{
+      opacity: .65;
   }

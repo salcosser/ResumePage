@@ -53,3 +53,14 @@
        <a class="nav-link active" href="QnA.php">(Oddly Specific) Q and A</a>
   </li>
 </nav>
+
+  
+<div class="container-fluid">
+      <div class="row">
+        <div class="jumbotron col-12" id="title">
+           <h2 class="display-3"><span id="n"> 1 </span><span>//Sam Alcosser's Works Portfoli<span id="last">o</span></span></h2> 
+        </div>
+      
+        
+          
+      </div>
