@@ -1,0 +1,9 @@
+-general text is getting formatted correctly now, just need to use sizes to determine
+the point at which things will flow from horizontal to vertical
+
+-change the onhover properties of the "show me the code" button to white background, the blue is ugly
+
+----------Ideas-------------
+
+-add in another Q and A explaining the prologue quote
+-as there will now be 5 questions, use kaylas idea to have only the qs displayed, and click to expand answer

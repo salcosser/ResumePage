@@ -52,8 +52,6 @@
        <a class="nav-link active" href="QnA.php">(Oddly Specific) Q and A</a>
   </li>
 </nav>
-<<<<<<< Updated upstream
-=======
 
   
 <div class="container-fluid">
@@ -65,4 +63,3 @@
         
           
       </div>
->>>>>>> Stashed changes
