@@ -13,7 +13,7 @@
 
   <div class="col-4" >
     <span> Personal Email: <a href="mailto:samalcosser@gmail.com">samalcosser@gmail.com</a></span><br />
-    <span> School Emali: <a href="mailto:samuel.alcosser1@marist.edu">samuel.alcosser1@marist.edu</a></span>
+    <span> School Email: <a href="mailto:samuel.alcosser1@marist.edu">samuel.alcosser1@marist.edu</a></span>
   </div>
 
 
