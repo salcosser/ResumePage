@@ -61,7 +61,7 @@ Through this project I got my first experience of the type of problem solving I 
 <div style="height:50px"></div>
 <div class="row cb" >
 
-
+<div class="col-md-4 screenshot" ><img src="img/Team Forum Login.PNG" class="img"></div>
 <div class="col-8">
 <p class="project-copy">Once the frontend was done, I wanted to tackle a bigger challenge. Making a custom built forum for the climbing team. Complete with different permission levels for team members, parents, and coaches. This meant getting into the territory of backend development. Here I learned how to use PHP and SQL to keep up the backend of websites. It was a great experience being able to be the graphic designer, the frontend developer, and the backend developer. This was my first attempt at programming in general, and in some places in the source code this is very apparent. In the end, All that mattered was that I started at nothing, and ended with a working product. </p>
 </div>
