@@ -6,3 +6,17 @@ function showCode(){
         c.style.display = "none";
     }
 }
+
+function sizing(){
+    var sw = screen.width;
+
+
+    if(sw <= 1200){
+        var titleParts = document.getElementsByClassName("title-pt");
+        for(var i= 0; i< titleParts.length;i++){
+            titleParts[i].style.textAlign = "center";
+        }
+        
+       
+    }
+}

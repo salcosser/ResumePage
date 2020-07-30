@@ -5,12 +5,12 @@
 <div class="jumbotron">
 
 <div class="row">
-  <div class="col-8">
+  <div class="col-lg-8">
   <h3 class="display-3">Workout Tracker</h3>
   <h4 class="display-4">Functional Product, and First "Big" Project</h4>
   </div>
 
-        <div class="col-4">
+        <div class="col-lg-4">
         <ul>
       <li>
         <span> > Languages used: Java, SQL, HQL, and a bit of XML
@@ -38,31 +38,32 @@
 
 
 
-<div class="col-8">
+
+ <div class="col-md-4 screenshot" ><img src="img/tracker.PNG" class="img"></div>
+ <div class="col-md-8">
 
   <p class="project-copy">
 
-&nbsp The project featured here is my final project for my software development 1 class. 
-        The goal was to make a workout tracker for myself that would let me keep track of the workouts that I do,
+&nbsp The project featured here was my final project for my software development 1 class. 
+        The goal was to create a workout tracker for myself that would let me keep track of the workouts that I complete,
          as well as doing some minor metrics work. Because of the fact that there was going to be a fair amount of data
-          that I would want to store in a non-volitile way, I knew that I would have to use a database. As stated in my
-           initial about me, I did have a little experience working with SQL from the website, but it was so long ago that
-            I needed to re learn it. I also met with my professor for guidance, as doing database work in Java was a whole 
+          that I would want to store in a non-volitile way, I knew that I would have to use a database. Before this, my only experience
+          with databases was building out the forum for the <a href = "teamrcf.php">teamRCF website</a>, and that was using php to connect.
+            I also met with my professor for guidance, as doing database work in Java was a whole 
             new ball game for me. He instructed me to use Hibernate.
  </p>
 
  </div>
- <div class="col-4 screenshot" ><img src="img/tracker.PNG" class="img"></div>
 </div>
 <div style="height:50px"></div>
 <div class="row ca" >
-<div class="col-4 screenshot" ><img src="img/homepage.PNG" class="img"></div>
- <div class="col-8">
+<div class="col-md-4 screenshot" ><img src="img/homepage.PNG" class="img"></div>
+ <div class="col-md-8">
 <p class="project-copy">
          This was a software designed to make the connection between
              Java and SQL more fluid. Without it, one would have to use JDBC, an archaic method involving writing out every SQL
               command before sending it. That is not to say that Hibernate makes it easy, There is a lot to learn about setting 
-              up the classes so they can communicate the data accurately to the database, although Hibernate does make it a lot 
+              up the classes so they can communicate the data accurately to the database, although Hibernate does make it much 
               cleaner to work with once everything is set up. I ended up also using MySQL Workbench in order to keep track of the databases, 
               which made it very simple. 
 </p>
@@ -72,8 +73,8 @@
 <div style="height:50px"></div>
 <div class="row cb" >
 
-
-<div class="col-8">
+<div class="col-md-4 screenshot" ><img src="img/metrics.PNG" class="img"></div>
+<div class="col-md-8">
 <p class="project-copy">
 This project is still a work in progress, as I am planning to roll out an update that would let users
                calculate their max weight for each number of reps, from within the application. The main function is workout tracking by
@@ -82,7 +83,7 @@ This project is still a work in progress, as I am planning to roll out an update
                  Some side functionality is the ability to have multiple users.
 </p>
 </div>
-<div class="col-4 screenshot" ><img src="img/metrics.PNG" class="img"></div>
+
   </div>   
 
   <div class="col-12 text-center cs-button-container">
