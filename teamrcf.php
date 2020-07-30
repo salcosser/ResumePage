@@ -44,8 +44,12 @@
 
   <p class="project-copy">
 
+<<<<<<< HEAD
 &nbsp To begin, I am aware that it would be much more elegant to have a hyperlink to the page, although, it is no longer active. The reason being the fees to keep the site active were starting to add up. Although, all of the source code is on the GitHub link. This project was the hardest thing I had ever done at the time. I was just getting into my senior year of high school and I wanted to start programming. The obvious place to start was a website.So, I decided to take it upon myself to make a website for my rock climbing team, hence the name teamrcf. 
  </p>
+=======
+&nbsp To begin, I am aware that it would be much more elegant to have a hyperlink to the page, although, it is no longer active. The reason being the fees to keep the site active were starting to add up. Although, all of the source code is on the GitHub link. This project was the hardest thing I had ever done at the time. I was just getting into my senior year of high school and I wanted to start programming. The obvious place to start was a website. So, I decided to take it upon myself to make a website for my rock climbing team, hence the name teamrcf.  </p>
+>>>>>>> 6fbea3fff214c4563e7bfd8312f050c642e93905
 
  </div>
  
@@ -55,14 +59,19 @@
 <div class="col-md-4 screenshot" ><img src="img/Contact Page.PNG" class="img"></div>
  <div class="col-md-8">
 <p class="project-copy">
+<<<<<<< HEAD
       Through this project I got my first experience of the type of problem solving I would have to do later on down the line as a programmer. I taught myself HTML and CSS through books that I bought. I Then used online resources, mainly w3schools.com. This website helped me with all that I would need to know to get started, even with CSS. I then obviously turned to Stack Overflow for my JavaScript questions. I would search for hours looking for solutions, and I felt so accomplished when I would succeed. 
 </p>
+=======
+Through this project I got my first experience of the type of problem solving I would have to do later on down the line as a programmer. I taught myself HTML and CSS through books that I bought. I Then used online resources, mainly w3schools.com. This website helped me with all that I would need to know to get started, even with CSS. I then obviously turned to Stack Overflow for my JavaScript questions. I would search for hours looking for solutions, and I felt so accomplished when I would succeed. </p>
+>>>>>>> 6fbea3fff214c4563e7bfd8312f050c642e93905
 </div>
 
 </div>
 <div style="height:50px"></div>
 <div class="row cb" >
 
+<<<<<<< HEAD
 <div class="col-md-4 screenshot" ><img src="img/Team Forum Login.PNG" class="img"></div>
 <div class="col-md-8">
 <p class="project-copy">
@@ -72,6 +81,11 @@ Once the frontend was done, I wanted to tackle a bigger challenge. Making a cust
  This was my first attempt at programming in general, and in some places in the source code this is very apparent.
  In the end, All that mattered was that I started at nothing, and ended with a working product. 
 </p>
+=======
+
+<div class="col-8">
+<p class="project-copy">Once the frontend was done, I wanted to tackle a bigger challenge. Making a custom built forum for the climbing team. Complete with different permission levels for team members, parents, and coaches. This meant getting into the territory of backend development. Here I learned how to use PHP and SQL to keep up the backend of websites. It was a great experience being able to be the graphic designer, the frontend developer, and the backend developer. This was my first attempt at programming in general, and in some places in the source code this is very apparent. In the end, All that mattered was that I started at nothing, and ended with a working product. </p>
+>>>>>>> 6fbea3fff214c4563e7bfd8312f050c642e93905
 </div>
 
   </div>   
