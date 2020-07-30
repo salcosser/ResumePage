@@ -19,6 +19,9 @@ function sizing(){
         
        
     }
+    if(sw <= 600){
+        document.getElementById("links").style.fontSize = "3vmin";
+    }
 }
 
 function revealQuestion(index){

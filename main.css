@@ -18,7 +18,7 @@ body{
     font-size:7vmin;
 }
 .project-copy{
-    font-size:2em;
+    font-size:5vmin;
 }
 /* phones */
 @media only screen and (max-width: 375px) {
@@ -257,10 +257,10 @@ ul{
 }
 
 .question{
- font-size: 3vmin;   
+ font-size: 4vmin;   
 }
 .answer{
-    font-size: 2.5vmin;
+    font-size: 3.5vmin;
     display:none;
     transition: display 0.5s ease-out;
 

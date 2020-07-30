@@ -4,7 +4,7 @@
   
   <div class="row" style="margin-bottom:30px" id="workoutTracker">
     <div class="col-md-4">
-      <img class="img-fluid" src="img/wt.png" alt="workoutTracker">
+    <a href="WorkoutTracker.php"><img class="img-fluid" src="img/wt.png" alt="workoutTracker"></a>
     </div>
     <div class="col-md-8"> 
       <h1 class="display-3"><a href="WorkoutTracker.php">Workout Tracker</a></h1>
@@ -16,7 +16,7 @@
 
   <div class="row" style="margin-bottom:30px">
   <div class="col-md-4">
-      <img class="img-fluid" src="img/rcfD.png" alt="TeamRCF.com">
+  <a href="teamrcf.php"> <img class="img-fluid" src="img/rcfD.png" alt="TeamRCF.com"></a>
     </div>
    <div class="col-md-8"> 
       <h1 class="display-3"><a href="teamrcf.php">Team RCF Website (Not Live)</a></h1>
@@ -29,7 +29,7 @@
 
   <div class="row"style="margin-bottom:30px">
    <div class="col-md-4">
-      <img class="img-fluid" src="img/pyWar.png" alt="pyWar">
+   <a href="pywar.php"><img class="img-fluid" src="img/pyWar.png" alt="pyWar"></a>
     </div>
    <div class="col-md-8"> 
       <h1 class="display-3"><a href="pywar.php">pyWar</a></h1>

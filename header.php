@@ -76,7 +76,7 @@
 
    <li class="nav-item">
     
-       <a class="nav-link active" href="QnA.php">(Oddly Specific) Q and A</a>
+       <a class="nav-link active" href="QnA.php">(Not So) FAQs </a>
   </li>
 
 
