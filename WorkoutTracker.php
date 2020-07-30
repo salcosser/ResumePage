@@ -44,17 +44,7 @@
 
   <p class="project-copy">
 
-<<<<<<< HEAD
-&nbsp The project featured here was my final project for my software development 1 class. 
-        The goal was to create a workout tracker for myself that would let me keep track of the workouts that I complete,
-         as well as doing some minor metrics work. Because of the fact that there was going to be a fair amount of data
-          that I would want to store in a non-volitile way, I knew that I would have to use a database. Before this, my only experience
-          with databases was building out the forum for the <a href = "teamrcf.php">teamRCF website</a>, and that was using php to connect.
-            I also met with my professor for guidance, as doing database work in Java was a whole 
-            new ball game for me. He instructed me to use Hibernate.
-=======
 &nbsp The project featured here was my final project for my software development 1 class. The goal was to create a workout tracker for myself that would let me keep track of the workouts that I complete, as well as doing some minor metrics work. Because of the fact that there was going to be a fair amount of data that I would want to store in a non-volitile way, I knew that I would have to use a database. Before this, my only experience with databases was building out the forum for the <a href="teamrcf.php">teamRCF website</a>, and that was using php to connect. I also met with my professor for guidance, as doing database work in Java was a whole new ball game for me. He instructed me to use Hibernate. </p>
->>>>>>> 6fbea3fff214c4563e7bfd8312f050c642e93905
  </p>
 
  </div>
@@ -64,17 +54,7 @@
 <div class="col-md-4 screenshot" ><img src="img/homepage.PNG" class="img"></div>
  <div class="col-md-8">
 <p class="project-copy">
-<<<<<<< HEAD
-         This was a software designed to make the connection between
-             Java and SQL more fluid. Without it, one would have to use JDBC, an archaic method involving writing out every SQL
-              command before sending it. That is not to say that Hibernate makes it easy, There is a lot to learn about setting 
-              up the classes so they can communicate the data accurately to the database, although Hibernate does make it much 
-              cleaner to work with once everything is set up. I ended up also using MySQL Workbench in order to keep track of the databases, 
-              which made it very simple. 
-</p>
-=======
 This was a software designed to make the connection between Java and SQL more fluid. Without it, one would have to use JDBC, an archaic method involving writing out every SQL command before sending it. That is not to say that Hibernate makes it easy, There is a lot to learn about setting up the classes so they can communicate the data accurately to the database, although Hibernate does make it much cleaner to work with once everything is set up. I ended up also using MySQL Workbench in order to keep track of the databases, which made it very simple. </p>
->>>>>>> 6fbea3fff214c4563e7bfd8312f050c642e93905
 </div>
 
 </div>
