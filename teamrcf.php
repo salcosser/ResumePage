@@ -44,12 +44,7 @@
 
   <p class="project-copy">
 
-<<<<<<< HEAD
-&nbsp To begin, I am aware that it would be much more elegant to have a hyperlink to the page, although, it is no longer active. The reason being the fees to keep the site active were starting to add up. Although, all of the source code is on the GitHub link. This project was the hardest thing I had ever done at the time. I was just getting into my senior year of high school and I wanted to start programming. The obvious place to start was a website.So, I decided to take it upon myself to make a website for my rock climbing team, hence the name teamrcf. 
- </p>
-=======
 &nbsp To begin, I am aware that it would be much more elegant to have a hyperlink to the page, although, it is no longer active. The reason being the fees to keep the site active were starting to add up. Although, all of the source code is on the GitHub link. This project was the hardest thing I had ever done at the time. I was just getting into my senior year of high school and I wanted to start programming. The obvious place to start was a website. So, I decided to take it upon myself to make a website for my rock climbing team, hence the name teamrcf.  </p>
->>>>>>> 6fbea3fff214c4563e7bfd8312f050c642e93905
 
  </div>
  
