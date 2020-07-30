@@ -85,16 +85,7 @@
         </div>
     </div>
 </div>
-<div class="row">
-    <div class="col-12">
-        <div class="card">
-            <div class="card-body cb" onclick="revealQuestion(5)" >
-            <p class="font-italic question " >Q: What is the quote about at the beginning of the site?</p>
-            <p class=" answer">A: If you re-read the quote, but think about it in terms of software development. In my opinion, this quote fits perfectly with the processing of debugging code. In order to be able to solve the problem at hand, as long as its not as simple as missing a semicolon, the developer needs to be able to change their frame of thinking. The reason being that clearly the way that the developer is thinking about the problem, or how to solve the problem, is not helpful to the process. Sometimes, this doesn’t mean racking one’s brain about how to have a paradigm shifting new mindset, but maybe just stepping away from the workplace or letting someone else take a look. This is extremely important in my opinion. So many of us in this field get into a mode of just constant work, or being in a “flow state”. The only problem is that this way of operating is not very conducive to openness to new ideas and ways of thinking.</p>
-            </div>
-        </div>
-    </div>
-</div>
+
 
 
 <?php require("footer.php");?>

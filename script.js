@@ -9,10 +9,10 @@ function showCode(){
 
 function sizing(){
     var sw = screen.width;
-
+    var titleParts = document.getElementsByClassName("title-pt");
 
     if(sw <= 1200){
-        var titleParts = document.getElementsByClassName("title-pt");
+        
         for(var i= 0; i< titleParts.length;i++){
             titleParts[i].style.textAlign = "center";
         }
@@ -21,7 +21,12 @@ function sizing(){
     }
     if(sw <= 600){
         document.getElementById("links").style.fontSize = "3vmin";
+        
+        for(var j= 0; j< titleParts.length;j++){
+            titleParts[j].style.fontSize = "6vmin";
+        }
     }
+
 }
 
 function revealQuestion(index){
