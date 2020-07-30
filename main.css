@@ -255,3 +255,16 @@ ul{
     animation:
     blink-caret-t .85s step-end infinite;
 }
+
+.question{
+ font-size: 3vmin;   
+}
+.answer{
+    font-size: 2.5vmin;
+    display:none;
+    transition: display 0.5s ease-out;
+
+}
+.answer.is-active {
+    display:block;
+  }

@@ -20,3 +20,9 @@ function sizing(){
        
     }
 }
+
+function revealQuestion(index){
+    var ans = document.getElementsByClassName("answer")[index];
+
+        ans.classList.toggle('is-active');
+}
