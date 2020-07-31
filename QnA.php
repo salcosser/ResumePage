@@ -70,7 +70,19 @@
         <div class="card">
             <div class="card-body ca" onclick="revealQuestion(3)">
             <p class="font-italic question" >Q: What are you up to now?</p>
-            <p class=" answer">A: Well, when I'm not at college, I'm home constantly looking for ways to better myself in this field. Whether that's little things like keeping up with latest trends in computing technology,  diving into a side project, or attempting to learn a new language, I'm always looking for ways to get better. At the very least, keep my mind moving. During the school year, I am studing at Marist college. I am pursuing a BS in Computer Science with a concentration in Software Development, with minors in IT and Cybersecurity. I also have plans to pursue a MS in Software Development through a five year program at my school. Other than academics, I also work part time with the CCAC group as a software developer. Currently, we are building a program called MIP_C for an accounting company called Collective Strategies. </p>
+            <p class=" answer">A: Well, when I'm not at college, I'm home constantly looking 
+for ways to better myself in this field. Whether that's little things like keeping up with 
+latest trends in computing technology,  diving into a side project, or attempting to learn a 
+new language, I'm always looking for ways to get better. At the very least, I try to keep my 
+mind 
+moving. During the school year, I am studing at Marist college. I am pursuing a BS in Computer 
+Science with a concentration in Software Development, with minors in IT and Cybersecurity. I 
+also have plans to pursue a MS in Software Development through a five year program at my 
+school. Other than academics, I also do development work part time with the Marist CCAC 
+group's agile 
+development team. 
+Currently, we are 
+building a program called MIP_C for an accounting company called Collective Strategies. </p>
             </div>
         </div>
     </div>
@@ -85,8 +97,6 @@
         </div>
     </div>
 </div>
-
-
 
 <?php require("footer.php");?>
   
