@@ -79,54 +79,49 @@ In the end, The algorithm could easily be mapped out with a decision tree, but a
 <h4>These lines of code are what happens in the game of war if there is a tie, or war, and after war the first player has a higher card.</h4>
 </div>
 <div class="card-body">
-  <pre>
-  <code>
-# what happens if there is a tie?
-else:
-# tie
-print("THIS MEANS WAR!!!")
-# tempstack is the name of a list which contains all cards on the table including both of the tied cards
-# and the other four which are dealt out between the two players
-# check that both players have enough cards to continue
-tempstack = [p1card, p2card]
-if len(self.player2H) &lt; 3:
-print("player 1 wins as player 2 is out of cards")
-games = 2501
-elif len(self.player1H) &lt; 3:
-print("player 2 wins as player 1 is out of cards")
-games = 2501
-else:
-# represents both players placing two cards face down
-tempstack.append(self.player1H.pop(0))
-tempstack.append(self.player1H.pop(0))
-tempstack.append(self.player2H.pop(0))
-tempstack.append(self.player2H.pop(0))
-# the commented line below is used for debugging purposes
-# print("tempstack length", len(tempstack))
-p1card = self.player1H.pop(0)
-p2card = self.player2H.pop(0)
-tempstack.append(p1card)
-tempstack.append(p2card)
-print("WAR")
-print("player 1 card:")
-p1card.show()
-print("player 2 card:")
-p2card.show()
-# checking yet again for a winner or a tie, if there is a winner, empty all of the tempstack
-# into that players deck
-if p1card.getVal() &gt; p2card.getVal():
-print("player 1 wins")
-time.sleep(.1)
-for card in tempstack:
-self.player1H.append(card)
-tempstack = []
-print(len(self.player1H))
-print(len(self.player2H))
-games = games + 1 
-  </code>
 
-
-  </pre>
+<pre class="python" style="font-family:monospace;"><span style="color: #808080; font-style: italic;"># what happens if there is a tie?</span>
+<span style="color: #ff7700;font-weight:bold;">else</span>:
+<span style="color: #808080; font-style: italic;"># tie</span>
+<span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span><span style="color: #483d8b;">&quot;THIS MEANS WAR!!!&quot;</span><span style="color: black;">&#41;</span>
+<span style="color: #808080; font-style: italic;"># tempstack is the name of a list which contains all cards on the table including both of the tied cards</span>
+<span style="color: #808080; font-style: italic;"># and the other four which are dealt out between the two players</span>
+<span style="color: #808080; font-style: italic;"># check that both players have enough cards to continue</span>
+tempstack <span style="color: #66cc66;">=</span> <span style="color: black;">&#91;</span>p1card<span style="color: #66cc66;">,</span> p2card<span style="color: black;">&#93;</span>
+<span style="color: #ff7700;font-weight:bold;">if</span> <span style="color: #008000;">len</span><span style="color: black;">&#40;</span><span style="color: #008000;">self</span>.<span style="color: black;">player2H</span><span style="color: black;">&#41;</span> <span style="color: #66cc66;">&lt;</span> <span style="color: #ff4500;">3</span>:
+<span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span><span style="color: #483d8b;">&quot;player 1 wins as player 2 is out of cards&quot;</span><span style="color: black;">&#41;</span>
+games <span style="color: #66cc66;">=</span> <span style="color: #ff4500;">2501</span>
+<span style="color: #ff7700;font-weight:bold;">elif</span> <span style="color: #008000;">len</span><span style="color: black;">&#40;</span><span style="color: #008000;">self</span>.<span style="color: black;">player1H</span><span style="color: black;">&#41;</span> <span style="color: #66cc66;">&lt;</span> <span style="color: #ff4500;">3</span>:
+<span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span><span style="color: #483d8b;">&quot;player 2 wins as player 1 is out of cards&quot;</span><span style="color: black;">&#41;</span>
+games <span style="color: #66cc66;">=</span> <span style="color: #ff4500;">2501</span>
+<span style="color: #ff7700;font-weight:bold;">else</span>:
+<span style="color: #808080; font-style: italic;"># represents both players placing two cards face down</span>
+tempstack.<span style="color: black;">append</span><span style="color: black;">&#40;</span><span style="color: #008000;">self</span>.<span style="color: black;">player1H</span>.<span style="color: black;">pop</span><span style="color: black;">&#40;</span><span style="color: #ff4500;">0</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+tempstack.<span style="color: black;">append</span><span style="color: black;">&#40;</span><span style="color: #008000;">self</span>.<span style="color: black;">player1H</span>.<span style="color: black;">pop</span><span style="color: black;">&#40;</span><span style="color: #ff4500;">0</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+tempstack.<span style="color: black;">append</span><span style="color: black;">&#40;</span><span style="color: #008000;">self</span>.<span style="color: black;">player2H</span>.<span style="color: black;">pop</span><span style="color: black;">&#40;</span><span style="color: #ff4500;">0</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+tempstack.<span style="color: black;">append</span><span style="color: black;">&#40;</span><span style="color: #008000;">self</span>.<span style="color: black;">player2H</span>.<span style="color: black;">pop</span><span style="color: black;">&#40;</span><span style="color: #ff4500;">0</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+<span style="color: #808080; font-style: italic;"># the commented line below is used for debugging purposes</span>
+<span style="color: #808080; font-style: italic;"># print(&quot;tempstack length&quot;, len(tempstack))</span>
+p1card <span style="color: #66cc66;">=</span> <span style="color: #008000;">self</span>.<span style="color: black;">player1H</span>.<span style="color: black;">pop</span><span style="color: black;">&#40;</span><span style="color: #ff4500;">0</span><span style="color: black;">&#41;</span>
+p2card <span style="color: #66cc66;">=</span> <span style="color: #008000;">self</span>.<span style="color: black;">player2H</span>.<span style="color: black;">pop</span><span style="color: black;">&#40;</span><span style="color: #ff4500;">0</span><span style="color: black;">&#41;</span>
+tempstack.<span style="color: black;">append</span><span style="color: black;">&#40;</span>p1card<span style="color: black;">&#41;</span>
+tempstack.<span style="color: black;">append</span><span style="color: black;">&#40;</span>p2card<span style="color: black;">&#41;</span>
+<span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span><span style="color: #483d8b;">&quot;WAR&quot;</span><span style="color: black;">&#41;</span>
+<span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span><span style="color: #483d8b;">&quot;player 1 card:&quot;</span><span style="color: black;">&#41;</span>
+p1card.<span style="color: black;">show</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span>
+<span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span><span style="color: #483d8b;">&quot;player 2 card:&quot;</span><span style="color: black;">&#41;</span>
+p2card.<span style="color: black;">show</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span>
+<span style="color: #808080; font-style: italic;"># checking yet again for a winner or a tie, if there is a winner, empty all of the tempstack</span>
+<span style="color: #808080; font-style: italic;"># into that players deck</span>
+<span style="color: #ff7700;font-weight:bold;">if</span> p1card.<span style="color: black;">getVal</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span> <span style="color: #66cc66;">&gt;</span> p2card.<span style="color: black;">getVal</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span>:
+<span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span><span style="color: #483d8b;">&quot;player 1 wins&quot;</span><span style="color: black;">&#41;</span>
+<span style="color: #dc143c;">time</span>.<span style="color: black;">sleep</span><span style="color: black;">&#40;</span><span style="color: #ff4500;">.1</span><span style="color: black;">&#41;</span>
+<span style="color: #ff7700;font-weight:bold;">for</span> card <span style="color: #ff7700;font-weight:bold;">in</span> tempstack:
+<span style="color: #008000;">self</span>.<span style="color: black;">player1H</span>.<span style="color: black;">append</span><span style="color: black;">&#40;</span>card<span style="color: black;">&#41;</span>
+tempstack <span style="color: #66cc66;">=</span> <span style="color: black;">&#91;</span><span style="color: black;">&#93;</span>
+<span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span><span style="color: #008000;">len</span><span style="color: black;">&#40;</span><span style="color: #008000;">self</span>.<span style="color: black;">player1H</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+<span style="color: #ff7700;font-weight:bold;">print</span><span style="color: black;">&#40;</span><span style="color: #008000;">len</span><span style="color: black;">&#40;</span><span style="color: #008000;">self</span>.<span style="color: black;">player2H</span><span style="color: black;">&#41;</span><span style="color: black;">&#41;</span>
+games <span style="color: #66cc66;">=</span> games + <span style="color: #ff4500;">1</span> </pre>
   </div>
   </div>
 </div>

@@ -77,37 +77,35 @@ Through this project I got my first experience of the type of problem solving I 
 <h4> This section of code describes part of the validation page on the user creation part of the forum. This gets used when the password and confirm password match, use capitals and lower case, and use numbers.</h4>
 </div>
 <div class="card-body">
-  <pre>
-  <code>
-  if ($resp-&gt;is_valid){
-$full_name = mysqli_escape_string($connection, $full_name);
-$username = mysqli_escape_string($connection, $username);
-$email = mysqli_escape_string($connection, $email);
-$passwordArray = password_encrypt($password);
-$hashyHash = $passwordArray[0];
-$saltySalt = $passwordArray[1];
-$userCreateQuery = "INSERT INTO users ( fullName, username, email, passypass, salt ) VALUES ('{$full_name}', '{$username}', '{$email}', '{$hashyHash}', '{$saltySalt}');";
-$setUser = mysqli_query($connection, $userCreateQuery);
-$userErrorCheck="SELECT username FROM users WHERE username = '{$username}'";
-$userErrorResult= mysqli_query($connection, $userCheckQuery);
-$userErrorRows = mysqli_num_rows($userErrorResult);
-if($userErrorRows === 0){
-// this catches the rare case of an insert statement to SQL not functioning properly
-$message = "An error occured, please try again.";
-$full_name = urlencode($full_name);
-$email = urlencode($email);
-$username =urlencode($username);
-$submit = urlencode($submit);
-$url = "http://localhost/teamrcf/php/forum/CreateAccount.php?s={$submit}&amp;m={$message}&amp;fn={$full_name}&amp;e={$email}&amp;u={$username}";
-mysqli_free_result($userCheckResult);
-mysqli_free_result($userErrorResult);
-mysqli_close($connection);
-redirect_to($url);
-} 
-  </code>
-
-
-  </pre>
+<pre class="php" style="font-family:monospace;">  <span style="color: #b1b100;">if</span> <span style="color: #009900;">&#40;</span><span style="color: #000088;">$resp</span><span style="color: #339933;">-&gt;</span><span style="color: #004000;">is_valid</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#123;</span>
+<span style="color: #000088;">$full_name</span> <span style="color: #339933;">=</span> <span style="color: #990000;">mysqli_escape_string</span><span style="color: #009900;">&#40;</span><span style="color: #000088;">$connection</span><span style="color: #339933;">,</span> <span style="color: #000088;">$full_name</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+<span style="color: #000088;">$username</span> <span style="color: #339933;">=</span> <span style="color: #990000;">mysqli_escape_string</span><span style="color: #009900;">&#40;</span><span style="color: #000088;">$connection</span><span style="color: #339933;">,</span> <span style="color: #000088;">$username</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+<span style="color: #000088;">$email</span> <span style="color: #339933;">=</span> <span style="color: #990000;">mysqli_escape_string</span><span style="color: #009900;">&#40;</span><span style="color: #000088;">$connection</span><span style="color: #339933;">,</span> <span style="color: #000088;">$email</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+<span style="color: #000088;">$passwordArray</span> <span style="color: #339933;">=</span> password_encrypt<span style="color: #009900;">&#40;</span><span style="color: #000088;">$password</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+<span style="color: #000088;">$hashyHash</span> <span style="color: #339933;">=</span> <span style="color: #000088;">$passwordArray</span><span style="color: #009900;">&#91;</span><span style="color: #cc66cc;">0</span><span style="color: #009900;">&#93;</span><span style="color: #339933;">;</span>
+<span style="color: #000088;">$saltySalt</span> <span style="color: #339933;">=</span> <span style="color: #000088;">$passwordArray</span><span style="color: #009900;">&#91;</span><span style="color: #cc66cc;">1</span><span style="color: #009900;">&#93;</span><span style="color: #339933;">;</span>
+<span style="color: #000088;">$userCreateQuery</span> <span style="color: #339933;">=</span> <span style="color: #0000ff;">&quot;INSERT INTO users ( fullName, username, email, passypass, salt ) VALUES ('<span style="color: #006699; font-weight: bold;">{$full_name}</span>', '<span style="color: #006699; font-weight: bold;">{$username}</span>', '<span style="color: #006699; font-weight: bold;">{$email}</span>', '<span style="color: #006699; font-weight: bold;">{$hashyHash}</span>', '<span style="color: #006699; font-weight: bold;">{$saltySalt}</span>');&quot;</span><span style="color: #339933;">;</span>
+<span style="color: #000088;">$setUser</span> <span style="color: #339933;">=</span> <span style="color: #990000;">mysqli_query</span><span style="color: #009900;">&#40;</span><span style="color: #000088;">$connection</span><span style="color: #339933;">,</span> <span style="color: #000088;">$userCreateQuery</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+<span style="color: #000088;">$userErrorCheck</span><span style="color: #339933;">=</span><span style="color: #0000ff;">&quot;SELECT username FROM users WHERE username = '<span style="color: #006699; font-weight: bold;">{$username}</span>'&quot;</span><span style="color: #339933;">;</span>
+<span style="color: #000088;">$userErrorResult</span><span style="color: #339933;">=</span> <span style="color: #990000;">mysqli_query</span><span style="color: #009900;">&#40;</span><span style="color: #000088;">$connection</span><span style="color: #339933;">,</span> <span style="color: #000088;">$userCheckQuery</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+<span style="color: #000088;">$userErrorRows</span> <span style="color: #339933;">=</span> <span style="color: #990000;">mysqli_num_rows</span><span style="color: #009900;">&#40;</span><span style="color: #000088;">$userErrorResult</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+<span style="color: #b1b100;">if</span><span style="color: #009900;">&#40;</span><span style="color: #000088;">$userErrorRows</span> <span style="color: #339933;">===</span> <span style="color: #cc66cc;">0</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#123;</span>
+<span style="color: #666666; font-style: italic;">// this catches the rare case of an insert statement to SQL not functioning properly</span>
+<span style="color: #000088;">$message</span> <span style="color: #339933;">=</span> <span style="color: #0000ff;">&quot;An error occured, please try again.&quot;</span><span style="color: #339933;">;</span>
+<span style="color: #000088;">$full_name</span> <span style="color: #339933;">=</span> <span style="color: #990000;">urlencode</span><span style="color: #009900;">&#40;</span><span style="color: #000088;">$full_name</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+<span style="color: #000088;">$email</span> <span style="color: #339933;">=</span> <span style="color: #990000;">urlencode</span><span style="color: #009900;">&#40;</span><span style="color: #000088;">$email</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+<span style="color: #000088;">$username</span> <span style="color: #339933;">=</span><span style="color: #990000;">urlencode</span><span style="color: #009900;">&#40;</span><span style="color: #000088;">$username</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+<span style="color: #000088;">$submit</span> <span style="color: #339933;">=</span> <span style="color: #990000;">urlencode</span><span style="color: #009900;">&#40;</span><span style="color: #000088;">$submit</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+<span style="color: #000088;">$url</span> <span style="color: #339933;">=</span> <span style="color: #0000ff;">&quot;http://localhost/teamrcf/php/forum/CreateAccount.php?s=<span style="color: #006699; font-weight: bold;">{$submit}</span>&amp;m=<span style="color: #006699; font-weight: bold;">{$message}</span>&amp;fn=<span style="color: #006699; font-weight: bold;">{$full_name}</span>&amp;e=<span style="color: #006699; font-weight: bold;">{$email}</span>&amp;u=<span style="color: #006699; font-weight: bold;">{$username}</span>&quot;</span><span style="color: #339933;">;</span>
+<span style="color: #990000;">mysqli_free_result</span><span style="color: #009900;">&#40;</span><span style="color: #000088;">$userCheckResult</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+<span style="color: #990000;">mysqli_free_result</span><span style="color: #009900;">&#40;</span><span style="color: #000088;">$userErrorResult</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+<span style="color: #990000;">mysqli_close</span><span style="color: #009900;">&#40;</span><span style="color: #000088;">$connection</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+redirect_to<span style="color: #009900;">&#40;</span><span style="color: #000088;">$url</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+<span style="color: #009900;">&#125;</span> 
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;</pre>
   </div>
   </div>
 </div>
