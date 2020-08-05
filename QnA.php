@@ -74,9 +74,9 @@ for ways to better myself in this field. Whether that's little things like keepi
 latest trends in computing technology,  diving into a side project, or attempting to learn a 
 new language, I'm always looking for ways to get better. At the very least, I try to keep my 
 mind moving. During the school year, I am studing at Marist college. I am pursuing a BS in Computer 
-Science with a concentration in Software Development, with minors in IT and Cybersecurity. I 
-also have plans to pursue a MS in Software Development through a five year program at my 
-school. Other than academics, I also work as a software developer with Marist's CCAC group's agile development team. This team Gets regular semester long work contracts with an accounting company named Collective Strategies. The experience I'm gaining from working with this group goes far beyond what I get from just writing code for a class or a side project. I'm also getting experience talking to the client on a regular basis, implementing new features, meeting deadlines, and being there if anything goes awry. Aside from administration tasks for an accounting company calleCollective Strategies. </p>
+Science with a concentration in Software Development, with minors in IT and Cybersecurity.
+I also have plans to pursue a MS in Software Development through a five year program at my 
+school. Other than academics, I also work as a software developer with Marist's CCAC group's agile development team. This team Gets regular semester long work contracts with an accounting company named Collective Strategies. The experience I'm gaining from working with this group goes far beyond what I get from just writing code for a class or a side project. I'm also getting experience talking to the client on a regular basis, implementing new features, meeting deadlines, and being there if anything goes awry. The main work that I have done for the project is helping to build out the Check Request Tool API and updating our API to be able to use segments, or specific parts of an accounting document.</p>
             </div>
         </div>
     </div>
