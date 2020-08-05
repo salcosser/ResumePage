@@ -1,9 +1,11 @@
 body{
-    
+    background-color:rgb(27, 44, 44);
     position: relative;
+    color:white;
+
 }
 .jumbotron{
-    background-color: white;
+    background-color:rgb(27, 44, 44);
 }
 .display-1{
     font-size:14vmin;
@@ -97,7 +99,7 @@ body{
   }
   @keyframes blink-caret-t {
     from, to { border-color: transparent }
-    50% { border-color: black; }
+    50% { border-color: white; }
   }
 .header-link:hover{
     text-decoration: none;
@@ -112,7 +114,7 @@ body{
     text-decoration: none !important;
 }
 #title{
-    background-color: white;
+    background-color:rgb(27, 44, 44);
     width:100%;
     font-family: 'Roboto Mono', monospace;
    /* background-color:rgb(27, 44, 44); */
@@ -133,6 +135,7 @@ font-size:10vmin;
 margin-left:0px;
 margin-right: 0px;
 font-weight: 1000;
+background-color:rgb(27, 44, 44);
 }
 #n{
     color: gray !important; 
@@ -173,10 +176,7 @@ footer h4{
     
 }
 
-.ft-head{
 
-    border-top: 2px solid black;
-}
 
 .info-pt .col-6{
     padding-top:0px;
@@ -209,17 +209,12 @@ ul{
 }
 
 .ca{
-    background-color:salmon;
-    border-top: 3px solid darkgray;
-    border-bottom: 2px solid darkgray;
-    border-radius: 10px;
+   
+    
 }
 
 .cb{
-    background-color:#ffa07a;
-        border-top: 3px solid darkgray;
-    border-bottom: 2px solid darkgray;
-    border-radius: 10px;
+   
 }
 .cs-button-container button{
     margin:100px 0px 50px 0px;
@@ -229,15 +224,23 @@ ul{
     color: salmon;
     font-family: 'Roboto Mono', monospace;
     font-weight: bold;
-    background-color: white;
+   background-color:rgb(27, 44, 44);
 }
 .cs-button-container button:active{
-    background-color: white;
+    background-color:rgb(27, 44, 44);
 }
-
+.card-body pre code{
+    font-size:2vmin !important;
+    line-height: .8;
+}
 
 .codeSnippet{
     display:none;
+
+}
+.card, .card-body, .card-header{
+   color:white;
+   background-color:rgb(27, 44, 44);
 }
 
 .icon{
@@ -257,7 +260,13 @@ ul{
 }
 
 .question{
- font-size: 4vmin;   
+ font-size: 4vmin;  
+ color:salmon; 
+ border:2px solid salmon;
+ border-radius:10px;
+ cursor: pointer;
+ width:auto;
+ text-align:center;
 }
 .answer{
     font-size: 3.5vmin;
@@ -271,7 +280,6 @@ ul{
 .card-body pre code{
 	font-size:5vmin;
 }
-.language-python, .language-php, 
-.language-java{
-font-size:3vmin !important;
+.card{
+    border:none;
 }

@@ -6,7 +6,7 @@
 
 <div class="row">
   <div class="col-lg-8">
-  <h3 class="display-3">Workout Tracker</h3>
+  <h3 class="display-3"style="color:salmon">Workout Tracker</h3>
   <h4 class="display-4">Functional Product, and First "Big" Project</h4>
   </div>
 

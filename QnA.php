@@ -8,12 +8,11 @@
 
 
 
-
 <div class="jumbotron" style="background-color:rgb(27, 44, 44);border-radius:5px;color:white">
 
 <div class="row" >
   <div class="col-lg-12 text-center">
-  <h3 class="display-3">(Not So) Frequently Asked Questions</h3>
+  <h3 class="display-3" style="color:salmon">(Not So) Frequently Asked Questions</h3>
   <h4 class="display-4">Click on the questions to reveal the answers</h4>
   </div>
 
@@ -38,7 +37,7 @@
         <div class="card">
             <div class="card-body cb" onclick="revealQuestion(0)" >
             <p class="font-italic question" >Q: How did you get into programming?</p>
-            <p class=" answer" >A: There are tons of stories about how kids grow up programming, learning C++ before they even get to high school, but that is not my story. To be honest, the first time I had experience writing code was anything but an "Aha" moment for me. I was going through a coding bootcamp with Columbia SIAM, and I was the the least competent out of all of my friends. I just couldn't understand the relationship between the code and the machine. It took a couple years before I built up the courage to try again, and this time it was an independent study to build a "feature rich" website for my rock climbing team. After putting in the hours, figuring out things like how to link a local database to a website with PHP without any real guidance, I was hooked.</p>
+            <p class=" answer">A: There are tons of stories about how kids grow up programming, learning C++ before they even get to high school, but that is not my story. To be honest, the first time I had experience writing code was anything but an "Aha" moment for me. I was going through a coding bootcamp with Columbia SIAM, and I was the the least competent out of all of my friends. I just couldn't understand the relationship between the code and the machine. It took a couple years before I built up the courage to try again, and this time it was an independent study to build a "feature rich" website for my rock climbing team. After putting in the hours, figuring out things like how to link a local database to a website with PHP without any real guidance, I was hooked.</p>
             </div>
         </div>
     </div>

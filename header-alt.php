@@ -84,7 +84,7 @@ function stick() {
   </script>
  <div id="prologue">
     <blockquote class="blockquote text-center">
-  <p class="mb-0" ><i>"No problem can be solved from the same level of conciousness that created it."</i></p>
+  <p class="mb-0" ><i style="color:black !important">"No problem can be solved from the same level of conciousness that created it."</i></p>
   <footer class="blockquote-footer" style="color:white">Albert Einstein</footer>
       </blockquote>
 
@@ -94,7 +94,7 @@ function stick() {
 </div>
 <div id="rContent">
 <div class="pos-f-t">
-  <div class="collapse" id="navbarToggleExternalContent">
+  <div class="collapse" id="navbarToggleExternalContent" >
     <div class="bg-dark p-4">
      
     <nav class="nav navbar-expand-sm bg-dark navbar-dark nbar">

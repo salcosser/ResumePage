@@ -8,7 +8,7 @@
 
 <div class="row">
   <div class="col-lg-8">
-  <h3 class="display-3">Team RCF Website (Not Live)</h3>
+  <h3 class="display-3"style="color:salmon">Team RCF Website (Not Live)</h3>
   <h4 class="display-4">From Nothing, to Building A Full Stack Website</h4>
   </div>
 

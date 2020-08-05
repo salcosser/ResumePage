@@ -7,8 +7,8 @@
 
 <div class="row">
   <div class="col-lg-8">
-  <h3 class="display-3">pyWar</h3>
-  <h4 class="display-4">First Non-Guided Programming Project</h4>
+  <h3 class="display-3" style="color:salmon">pyWar</h3>
+  <h4 class="display-4" >First Non-Guided Programming Project</h4>
   </div>
 
         <div class="col-lg-4">
