@@ -268,3 +268,10 @@ ul{
 .answer.is-active {
     display:block;
   }
+.card-body pre code{
+	font-size:5vmin;
+}
+.language-python, .language-php, 
+.language-java{
+font-size:3vmin !important;
+}

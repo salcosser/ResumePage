@@ -78,7 +78,7 @@ Through this project I got my first experience of the type of problem solving I 
 </div>
 <div class="card-body">
 
-<pre><code class="language-php">
+<pre><code class="language-php" style="font-size:2vmin !important; line-height:.8 !important">
 if ($resp-&#x3E;is_valid){
 $full_name = mysqli_escape_string($connection, $full_name);
 $username = mysqli_escape_string($connection, $username);

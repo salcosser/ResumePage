@@ -1,10 +1,21 @@
 <?php require("header-alt.php");?>
-      
+
+ <!-- 
+
+Some wisdom...
+
+give a person a program and they'll be 
+frustrated for a day, teach a person to 
+program and they'll be frustrated for the 
+rest of their life.
+
+-->      
       
   
   <div class="row" style="margin-bottom:30px" id="workoutTracker">
     <div class="col-md-4">
-    <a href="WorkoutTracker.php"><img class="img-fluid" src="img/wt.png" alt="workoutTracker"></a>
+    <a href="WorkoutTracker.php"><img 
+class="img-fluid" src="img/wt.png" alt="workoutTracker"></a>
     </div>
     <div class="col-md-8"> 
       <h1 class="display-3"><a href="WorkoutTracker.php">Workout Tracker</a></h1>
@@ -34,7 +45,7 @@
    <div class="col-md-8"> 
       <h1 class="display-3"><a href="pywar.php">pyWar</a></h1>
       <hr class="pageBreak">
-      <h1 class="display-4">Simple Program Written in Python to Simulate the Card Game War.</h1>
+      <h1 class="display-4">Simple Program Written in Python to Simulate the Card Game War</h1>
   </div>
  
 </div>
