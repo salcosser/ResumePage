@@ -283,3 +283,6 @@ ul{
 .card{
     border:none;
 }
+.codeSnippet .card .card-header{
+    font-size:3vmin !important;
+}

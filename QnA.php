@@ -37,7 +37,7 @@
         <div class="card">
             <div class="card-body cb" onclick="revealQuestion(0)" >
             <p class="font-italic question" >Q: How did you get into programming?</p>
-            <p class=" answer">A: There are tons of stories about how kids grow up programming, learning C++ before they even get to high school, but that is not my story. To be honest, the first time I had experience writing code was anything but an "Aha" moment for me. I was going through a coding bootcamp with Columbia SIAM, and I was the the least competent out of all of my friends. I just couldn't understand the relationship between the code and the machine. It took a couple years before I built up the courage to try again, and this time it was an independent study to build a "feature rich" website for my rock climbing team. After putting in the hours, figuring out things like how to link a local database to a website with PHP without any real guidance, I was hooked.</p>
+            <p class=" answer">A: There are tons of stories about how kids grow up programming, learning C++ before they even get to high school, but that is not my story. To be honest, the first time I had experience writing code was anything but an "aha" moment for me. I was going through a coding bootcamp with Columbia SIAM, and I was the the least competent out of all of my friends. I just couldn't understand the relationship between the code and the machine. It took a couple years before I built up the courage to try again, and this time it was an independent study to build a "feature rich" website for my rock climbing team. After putting in the hours, figuring out things like how to link a local database to a website with PHP without any real guidance, I was hooked.</p>
             </div>
         </div>
     </div>
@@ -73,15 +73,10 @@
 for ways to better myself in this field. Whether that's little things like keeping up with 
 latest trends in computing technology,  diving into a side project, or attempting to learn a 
 new language, I'm always looking for ways to get better. At the very least, I try to keep my 
-mind 
-moving. During the school year, I am studing at Marist college. I am pursuing a BS in Computer 
+mind moving. During the school year, I am studing at Marist college. I am pursuing a BS in Computer 
 Science with a concentration in Software Development, with minors in IT and Cybersecurity. I 
 also have plans to pursue a MS in Software Development through a five year program at my 
-school. Other than academics, I also do development work part time with the Marist CCAC 
-group's agile 
-development team. 
-Currently, we are 
-building a program called MIP_C for an accounting company called Collective Strategies. </p>
+school. Other than academics, I also work as a software developer with Marist's CCAC group's agile development team. This team Gets regular semester long work contracts with an accounting company named Collective Strategies. The experience I'm gaining from working with this group goes far beyond what I get from just writing code for a class or a side project. I'm also getting experience talking to the client on a regular basis, implementing new features, meeting deadlines, and being there if anything goes awry. Aside from administration tasks for an accounting company calleCollective Strategies. </p>
             </div>
         </div>
     </div>
@@ -91,7 +86,7 @@ building a program called MIP_C for an accounting company called Collective Stra
         <div class="card">
             <div class="card-body cb" onclick="revealQuestion(4)">
             <p class="font-italic question" >Q: What is the quote about at the beginning of the site?</p>
-            <p class=" answer">A: If you re-read the quote, but think about it in terms of software development. In my opinion, this quote fits perfectly with the processing of debugging code. In order to be able to solve the problem at hand, as long as its not as simple as missing a semicolon, the developer needs to be able to change their frame of thinking. The reason being that clearly the way that the developer is thinking about the problem, or how to solve the problem, is not helpful to the process. Sometimes, this doesn’t mean racking one’s brain about how to have a paradigm shifting new mindset, but maybe just stepping away from the workplace or letting someone else take a look. This is extremely important in my opinion. So many of us in this field get into a mode of just constant work, or being in a “flow state”. The only problem is that this way of operating is not very conducive to openness to new ideas and ways of thinking.</p>
+            <p class=" answer">A: Right when you arrive at this site, you are greeted with the quote "No problem can be solved from the same level of conciousness that created it.". The first time I read this quote, I saw how it applied to so many parts of my life, although for our purposes, the context of software development. In my opinion, this quote fits perfectly with the process of debugging code. In order to be able to solve the problem at hand, as long as its not as simple as missing a semicolon, the developer needs to be able to change their frame of thinking. The reason being that clearly the way that the developer is thinking about the problem, or how to solve the problem, is not helpful to the process. Sometimes, this doesn’t mean racking one’s brain about how to have a paradigm shifting new mindset, but maybe just stepping away from the workplace or letting someone else take a look. This is extremely important in my opinion. So many of us in this field get into a mode of just constant work, or being in a “flow state”. The only problem is that this way of operating is not very conducive to openness to new ideas and ways of thinking.</p>
             </div>
         </div>
     </div>
