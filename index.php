@@ -10,7 +10,7 @@ program and they'll be frustrated for the
 rest of their life.
 
 -->      
-      
+      <p>Testing</p>
   
   <div class="row" style="margin-bottom:30px" id="workoutTracker">
     <div class="col-md-4">
