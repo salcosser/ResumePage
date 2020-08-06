@@ -69,7 +69,7 @@ Through this project I got my first experience of the type of problem solving I 
   </div>   
 
   <div class="col-12 text-center cs-button-container">
-    <button class=" btn btn-info"  onclick="showCode()">Give me a taste of the code! (double-click)</button>
+    <button class=" btn "  onclick="showCode()">Give me a taste of the code! (double-click)</button>
   </div>
   <div class="codeSnippet" id="csc">
 <div class="card">

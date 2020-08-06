@@ -1,11 +1,17 @@
 body{
-    background-color:rgb(27, 44, 44);
+   
     position: relative;
-    color:white;
-
+    color: black transition .5s;
+    background-color: transparent;
+    transition-property: background-color, color;
+    transition-duration: .5s;
 }
+.btn-info, .btn{
+    background-color:none;
+}
+
 .jumbotron{
-    background-color:rgb(27, 44, 44);
+   background-color: transparent;
 }
 .display-1{
     font-size:14vmin;
@@ -79,7 +85,7 @@ body{
    animation:
     blink-caret .85s step-end infinite;
 }
-.display-3 #last{
+#last-t{
     border-right: 4px solid white;
     margin: 0 auto;
    
@@ -99,7 +105,7 @@ body{
   }
   @keyframes blink-caret-t {
     from, to { border-color: transparent }
-    50% { border-color: white; }
+    50% { border-color: black; }
   }
 .header-link:hover{
     text-decoration: none;
@@ -110,11 +116,11 @@ body{
     background-color:limegreen;
 }
 .nav-link{
-    color:salmon;
+    color:salmon !important;
     text-decoration: none !important;
 }
 #title{
-    background-color:rgb(27, 44, 44);
+   
     width:100%;
     font-family: 'Roboto Mono', monospace;
    /* background-color:rgb(27, 44, 44); */
@@ -128,14 +134,14 @@ body{
 
 #title h2{
 
-color: salmon;
+color: salmon !important;
 display: inline-block;
 /*width:  60%;*/
 font-size:10vmin;
 margin-left:0px;
 margin-right: 0px;
 font-weight: 1000;
-background-color:rgb(27, 44, 44);
+
 }
 #n{
     color: gray !important; 
@@ -144,7 +150,7 @@ background-color:rgb(27, 44, 44);
     height:100vh;
     width:auto;
     background-color: white;
-    background-color: salmon;
+    background-color: salmon !important;
 }
 
 #prologue blockquote{
@@ -219,15 +225,15 @@ ul{
 .cs-button-container button{
     margin:100px 0px 50px 0px;
     font-size:6vmin;
-    border: 4px solid salmon;
+    border: 4px solid salmon !important;
     border-radius: 20px;
-    color: salmon;
+    color: salmon !important;
     font-family: 'Roboto Mono', monospace;
     font-weight: bold;
-   background-color:rgb(27, 44, 44);
+  
 }
 .cs-button-container button:active{
-    background-color:rgb(27, 44, 44);
+    background-color: none;
 }
 .card-body pre code{
     font-size:2vmin !important;
@@ -238,10 +244,7 @@ ul{
     display:none;
 
 }
-.card, .card-body, .card-header{
-   color:white;
-   background-color:rgb(27, 44, 44);
-}
+
 
 .icon{
     height:50px;
@@ -261,8 +264,8 @@ ul{
 
 .question{
  font-size: 4vmin;  
- color:salmon; 
- border:2px solid salmon;
+ color:salmon !important; 
+ border:2px solid salmon !important;
  border-radius:10px;
  cursor: pointer;
  width:auto;
@@ -283,13 +286,31 @@ ul{
 .card{
     border:none;
 }
+.card-header{
+    background-color: transparent;
+}
 .codeSnippet .card .card-header{
     font-size:3vmin !important;
+    
+}
+.card {
+    background-color:transparent !important;
 }
 #toggle-btn{
     border: 4px solid salmon !important;
     border-radius: 5px;
-    font-size: 2vmin;
-    color:salmon;
-    background-color: rgb(27, 44, 44);
+    font-size: 1.5vmin;
+    color:salmon !important;
+}
+
+.fa-bars{
+    color: salmon;
+    font-size: 5vmin;
+}
+.navbar-toggler{
+    border:none;
+}
+.navbar-toggler-icon{
+    background-image: none !important;
+    border:none;
 }

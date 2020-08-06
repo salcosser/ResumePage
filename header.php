@@ -46,7 +46,7 @@
 <script src="prism.js"></script>
 </head>
 
-<body onload="javascript:sizing(),function(){alert('This ran')}">
+<body onload="javascript:sizing();toggleMode()">
  <?php session_start();?>
 
 </div>
@@ -90,7 +90,9 @@
   </div>
   <nav class="navbar navbar-dark bg-dark">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon">   
+    <i class="fas fa-bars"></i>
+</span>
     </button>
    <button id="toggle-btn" class="btn" onclick="toggleMode()">Toggle Light / Dark Mode</button>
   </nav>
@@ -103,7 +105,7 @@
       <div class="row">
         <div class="jumbotron row text-center" id="title">
            <h2  class="display-3 title-pt col-xl-6" style="text-align: right;"><span>Sam Alcosser's </span></h2>
-           <h2 class="display-3 title-pt col-xl-6 " style="text-align: left;"><span> Works Portfoli<span id="last">o</span></span></h2> 
+           <h2 class="display-3 title-pt col-xl-6 " style="text-align: left;"><span> Works Portfoli<span id="last-t">o</span></span></h2> 
         </div>
       
         

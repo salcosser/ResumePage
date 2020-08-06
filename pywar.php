@@ -71,7 +71,7 @@ In the end, The algorithm could easily be mapped out with a decision tree, but a
   </div>   
 
   <div class="col-12 text-center cs-button-container">
-    <button class=" btn btn-info"  onclick="showCode()">Give me a taste of the code! (double-click)</button>
+    <button class=" btn "  onclick="showCode()">Give me a taste of the code! (double-click)</button>
   </div>
   <div class="codeSnippet" id="csc">
 <div class="card">

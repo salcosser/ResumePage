@@ -8,7 +8,7 @@
 
 
 
-<div class="jumbotron" style="background-color:rgb(27, 44, 44);border-radius:5px;color:white">
+<div class="jumbotron">
 
 <div class="row" >
   <div class="col-lg-12 text-center">

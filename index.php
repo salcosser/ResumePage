@@ -19,7 +19,7 @@ class="img-fluid" src="img/wt.png" alt="workoutTracker"></a>
     </div>
     <div class="col-md-8"> 
       <h1 class="display-3"><a href="WorkoutTracker.php">Workout Tracker</a></h1>
-      <hr class="pageBreak">
+      
       <h1 class="display-4">Workout Logging Software Built Using the Hibernate ORM</h1>
 
     </div>
@@ -31,7 +31,7 @@ class="img-fluid" src="img/wt.png" alt="workoutTracker"></a>
     </div>
    <div class="col-md-8"> 
       <h1 class="display-3"><a href="teamrcf.php">Team RCF Website (Not Live)</a></h1>
-      <hr class="pageBreak">
+     
       <h1 class="display-4">Website for A Competitive Youth Rock Climbing Team with A Custom Forum to Connect Climbers,  Coaches, and Parents </h1>
   </div>
   
@@ -44,7 +44,7 @@ class="img-fluid" src="img/wt.png" alt="workoutTracker"></a>
     </div>
    <div class="col-md-8"> 
       <h1 class="display-3"><a href="pywar.php">pyWar</a></h1>
-      <hr class="pageBreak">
+     
       <h1 class="display-4">Simple Program Written in Python to Simulate the Card Game War</h1>
   </div>
  

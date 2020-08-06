@@ -71,7 +71,7 @@ This project is still a work in progress, as I am planning to roll out an update
   </div>   
 
   <div class="col-12 text-center cs-button-container">
-    <button class=" btn btn-info"  onclick="showCode()">Give me a taste of the code! (double-click)</button>
+    <button class=" btn "  onclick="showCode()">Give me a taste of the code! (double-click)</button>
   </div>
   <div class="codeSnippet" id="csc">
 <div class="card">
