@@ -34,3 +34,7 @@ function revealQuestion(index){
 
         ans.classList.toggle('is-active');
 }
+function toggleMode(){
+   var currColor = document.getElementById("toggle-btn").style.backgroundColor;
+   alert(currColor); 
+}

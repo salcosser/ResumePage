@@ -46,6 +46,7 @@
 <script src="prism.js"></script>
   </head>
   <body onload="javascript:fade(document.getElementById('prologue')),sizing()">
+  <?php session_start();?>
   <script>
 
 
@@ -135,6 +136,7 @@ function stick() {
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+    <button id="toggle-btn" class="btn" onclick="toggleMode()">Toggle Light / Dark Mode</button>
   </nav>
 </div>
   

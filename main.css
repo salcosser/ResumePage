@@ -286,3 +286,10 @@ ul{
 .codeSnippet .card .card-header{
     font-size:3vmin !important;
 }
+#toggle-btn{
+    border: 4px solid salmon !important;
+    border-radius: 5px;
+    font-size: 2vmin;
+    color:salmon;
+    background-color: rgb(27, 44, 44);
+}

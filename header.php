@@ -47,7 +47,7 @@
 </head>
 
 <body onload="javascript:sizing(),function(){alert('This ran')}">
- 
+ <?php session_start();?>
 
 </div>
 <div class="pos-f-t">
@@ -92,6 +92,7 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+   <button id="toggle-btn" class="btn" onclick="toggleMode()">Toggle Light / Dark Mode</button>
   </nav>
 </div>
 
