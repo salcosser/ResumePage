@@ -166,8 +166,25 @@ font-weight: 1000;
     padding-top: 35vh;
     font-size:4em;
     line-height: 1.1;
+   
 }
-
+.mb-0{
+     position: relative;
+    animation: quote 3s ease-out forwards !important;
+}
+.blockquote-footer{
+    position: relative;
+animation: albert 3s ease-out forwards !important;
+padding:0px !important;
+}
+@keyframes quote {
+  0% {top: -100vh;}
+  100% {top: 3vh;}
+}
+@keyframes albert {
+  0% {top: 100vh;}
+  100% {top: 4vh;}
+}
 #down-arrow{
  font-size: 300px;
  align-content: center;

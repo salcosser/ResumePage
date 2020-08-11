@@ -76,7 +76,7 @@
         element.style.filter = 'alpha(opacity=' + op * 100 + ")";
         op -= op * 0.08;
     }, 50);
-      },5500);
+      },7500);
       }else{
         document.getElementById('prologue').style.display = 'none';
        
