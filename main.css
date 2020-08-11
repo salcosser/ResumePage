@@ -1,10 +1,12 @@
 body{
    
     position: relative;
-    color: black transition .5s;
-    background-color: transparent;
+    color: white ;
+    background-color: rgb(27, 44, 44);
     transition-property: background-color, color;
     transition-duration: .5s;
+    margin:0px !important;
+    padding:0px;
 }
 .btn-info, .btn{
     background-color:none;
@@ -35,6 +37,9 @@ body{
    }
    #prologue{
        display : none;
+       z-index: 99 !important;
+       position:fixed;
+       height:100vh;
    }
    #navbar .nav-item{
        float: none;
@@ -65,7 +70,6 @@ body{
 #links{
     font-size: 1.5em;
     background-color:rgb(27, 44, 44);
-    margin-bottom: 75px;
     padding-left: 20px;
 }
 #links ul{
@@ -149,8 +153,10 @@ font-weight: 1000;
 #prologue{
     height:100vh;
     width:auto;
+    position:fixed;
     background-color: white;
     background-color: salmon !important;
+    z-index: +99;
 }
 
 #prologue blockquote{
@@ -305,7 +311,10 @@ ul{
 
 .fa-bars{
     color: salmon;
-    font-size: 5vmin;
+    font-size: 3vmin;
+}
+.fa-bars:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus{
+    border: none;
 }
 .navbar-toggler{
     border:none;
@@ -313,4 +322,83 @@ ul{
 .navbar-toggler-icon{
     background-image: none !important;
     border:none;
+}
+
+.showcase {
+  /*position: relative;*/
+  padding:75px 0px 75px 0px;
+}
+
+
+/* new stuff from here to footer
+showCase = container
+
+*/
+
+.showCase {
+  position: relative;
+  width: 100%;
+
+}
+.showCase > *{
+    margin: 0 auto;
+}
+.pic {
+  display: block;
+  width: 33.333333%;
+  height: 33.33%;
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.showCase:hover .overlay {
+  opacity: .85;
+}
+
+.text {
+  color: darkgray;
+  font-size: 7vmin;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+ 
+}
+
+footer{
+background-color: salmon !important;
+color:white !important;
+width:100% !important;
+margin:0px 0px 0px 0px !important;
+padding: 15px 5px 0px 5px !important;
+}
+footer a{
+    color:lightblue !important;
+}
+.buffer{
+    width:33.33%!important;
+}
+.containter{
+    margin:0px;
+}
+.pos-f-t{
+    position:fixed;
+    z-index:+80;
+    width:100%;
+    top:0px;
 }

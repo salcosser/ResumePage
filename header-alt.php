@@ -47,6 +47,13 @@
   </head>
   <body onload="javascript:fade(document.getElementById('prologue')),sizing()">
   <?php session_start();?>
+  <style>
+.row{
+  margin-right:0px;
+  margin-left:0px;
+}
+
+</style>
   <script>
 
 
@@ -63,6 +70,7 @@ function stick() {
 }
 
    var prologue = document.getElementById('prologue');
+  
     function fade(element) {
       if(screen.width >= 500){
       setTimeout(function(){
@@ -79,9 +87,19 @@ function stick() {
       },5500);
       }else{
         document.getElementById('prologue').style.display = 'none';
+
+
       }
 }
- 
+ function breakBuffers(){
+  var sw = screen.width;
+  var buffers = document.getElementsByClassName("buffer");
+  if(sw <= 600){
+    for(buffer of buffers){
+      buffer.style.display = "none";
+    }
+  }
+ }
   </script>
  <div id="prologue">
     <blockquote class="blockquote text-center">
@@ -93,7 +111,7 @@ function stick() {
   </div>
 
 </div>
-<div id="rContent">
+<div id="rContent" style="margin-top: 54px">
 <div class="pos-f-t">
   <div class="collapse" id="navbarToggleExternalContent" >
     <div class="bg-dark p-4">
@@ -132,7 +150,7 @@ function stick() {
 
     </div>
   </div>
-  <nav class="navbar navbar-dark bg-dark">
+  <nav class="navbar navbar-dark bg-dark" >
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon">   
     <i class="fas fa-bars"></i>
@@ -142,7 +160,7 @@ function stick() {
   </nav>
 </div>
   
-      <div class="container-fluid content">
+      <div class="content">
       <div class="row" id="links">
       
         <ul class="list-unstyled" >

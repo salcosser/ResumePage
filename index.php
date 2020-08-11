@@ -10,45 +10,36 @@ program and they'll be frustrated for the
 rest of their life.
 
 -->      
-      
-  
-  <div class="row" style="margin-bottom:30px" id="workoutTracker">
-    <div class="col-md-4">
-    <a href="WorkoutTracker.php"><img 
-class="img-fluid" src="img/wt.png" alt="workoutTracker"></a>
-    </div>
-    <div class="col-md-8"> 
-      <h1 class="display-3"><a href="WorkoutTracker.php">Workout Tracker</a></h1>
-      
-      <h1 class="display-4">Workout Logging Software Built Using the Hibernate ORM</h1>
-
-    </div>
-  </div>
-
-  <div class="row" style="margin-bottom:30px">
-  <div class="col-md-4">
-  <a href="teamrcf.php"> <img class="img-fluid" src="img/rcfD.png" alt="TeamRCF.com"></a>
-    </div>
-   <div class="col-md-8"> 
-      <h1 class="display-3"><a href="teamrcf.php">Team RCF Website (Not Live)</a></h1>
-     
-      <h1 class="display-4">Website for A Competitive Youth Rock Climbing Team with A Custom Forum to Connect Climbers,  Coaches, and Parents </h1>
-  </div>
-  
-</div>
-
-
-  <div class="row"style="margin-bottom:30px">
-   <div class="col-md-4">
-   <a href="pywar.php"><img class="img-fluid" src="img/pyWar.png" alt="pyWar"></a>
-    </div>
-   <div class="col-md-8"> 
-      <h1 class="display-3"><a href="pywar.php">pyWar</a></h1>
-     
-      <h1 class="display-4">Simple Program Written in Python to Simulate the Card Game War</h1>
-  </div>
  
+
+
+
+     <a href="WorkoutTracker.php">
+<div class="showCase " style="background-color: black !important">
+    <img class="  pic" src="img/wt.png" alt="workoutTracker">
+  <div class="overlay">
+    <h1 class="text">Workout Tracker</h1>
+  </div>
 </div>
+</a>
+
+      <a href="teamrcf.php">
+<div class="showCase " style="background-color: #FB8104 !important">
+    <img class=" pic" src="img/rcfD.png" alt="TeamRCF"> 
+     <div class="overlay">
+      <h1 class=" text">Team RCF Website (Not Live)</h1> 
+    </div>
+</div>
+</a>
+    <a href="pywar.php">
+<div class="showCase "  style="background-color: #00D586 !important">
+   <img class="pic" src="img/pyWar.png" alt="workoutTracker">
+   <div class="overlay">
+<h1 class=" text">pyWar</h1>
+</div>
+</div>
+</a>
+
 
 
 

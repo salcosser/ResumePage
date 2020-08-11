@@ -1,8 +1,8 @@
 
 
 
-<footer>
-<div class="row ft-head"><div class="col-12"><h4 class="text-center"> Sam Alcosser's Online Portfolio </h4></div></div>
+<footer >
+
 <div class="row info-pt">
 
 

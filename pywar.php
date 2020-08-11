@@ -43,7 +43,7 @@
 
   <p class="project-copy">
 
-&nbsp   This project was really about pushing the limits of what I could do with pure Python, aside from the graphics package. This was one of my first full projects, and the first program that I ever made using Python on my own. This project, which was my final project for Intro to Programming, plays the card game War against itself until one "player" either runs out of cards or they play 100 hands. At that point, the "player with the greatest amount of cards wins. This limit was put on as during testing, there were some matches that would last over 2000 hands.  </p>
+&nbsp   This project was really about pushing the limits of what I could do with pure Python, aside from the graphics package. This was one of my first full projects, and the first program that I ever made using Python on my own. This project, which was my final project for Intro to Programming, plays the card game War against itself until one "player" either runs out of cards or they play 100 hands. At that point, the "player" with the greatest amount of cards wins. This limit was put on as during testing, there were some matches that would last over 2000 hands.  </p>
 
  </div>
  
@@ -53,7 +53,7 @@
 <div class="col-md-4 screenshot" ><img src="img/console.PNG" class="img"></div>
  <div class="col-md-8">
 <p class="project-copy">
-The code itself is quite simple, although I loved making it. This program was my first introduction into object oriented programming, and it shows in the code. I made my own classes for the decks of cards and for the games. It took me a while to figure out how to make a deck of cards out of two arrays, but my method of putting each card into a string and parsing it out afterwards proved useful. The algorithm for the game was more complicated. </p>
+&nbspThe code itself is quite simple, although I loved making it. This program was my first introduction into object oriented programming, and it shows in the code. I made my own classes for the decks of cards and for the games. It took me a while to figure out how to make a deck of cards out of two arrays, but my method of putting each card into a string and parsing it out afterwards proved useful. The algorithm for the game was more complicated. </p>
 </div>
 
 </div>
@@ -64,7 +64,7 @@ The code itself is quite simple, although I loved making it. This program was my
 <div class="col-md-8">
 <p class="project-copy">
 
-In the end, The algorithm could easily be mapped out with a decision tree, but at the time I was just going off of what I thought would work. I actually developed my own way of interpreting it. Also, as a side note, the game will only go into double war, after that, the hand is split evenly and re-dealt, making sure to shuffle the stack prior to avoid an infinite loop. The only user input is how many times the deck is shuffled, as the computer plays against itself. The implementation of the graphics module was used to make a simple poker table, to simulate the play area.
+&nbsp In the end, The algorithm could easily be mapped out with a decision tree, but at the time I was just going off of what I thought would work. I actually developed my own way of interpreting the two stacks. Also, as a side note, the game will only go into double war, after that, the hand is split evenly and re-dealt, making sure to shuffle the stack prior to avoid an infinite loop. The only user input is how many times the deck is shuffled, as the computer plays against itself. The implementation of the graphics module was used to make a simple poker table, to simulate the play area.
 </p>
 </div>
 

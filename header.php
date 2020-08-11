@@ -46,7 +46,7 @@
 <script src="prism.js"></script>
 </head>
 
-<body onload="javascript:sizing();toggleMode()">
+<body onload="javascript:sizing();">
  <?php session_start();?>
 
 </div>
@@ -101,13 +101,5 @@
 
 
   
-<div class="container-fluid">
-      <div class="row">
-        <div class="jumbotron row text-center" id="title">
-           <h2  class="display-3 title-pt col-xl-6" style="text-align: right;"><span>Sam Alcosser's </span></h2>
-           <h2 class="display-3 title-pt col-xl-6 " style="text-align: left;"><span> Works Portfoli<span id="last-t">o</span></span></h2> 
-        </div>
-      
-        
-          
-      </div>
+<div class="container-fluid" style="margin-top: 54px">
+    
