@@ -58,20 +58,12 @@
 
 
 
-    var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
 
-function stick() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
 
    var prologue = document.getElementById('prologue');
   
     function fade(element) {
+
       if(screen.width >= 500){
       setTimeout(function(){
         var op = 1;  // initial opacity
@@ -87,10 +79,11 @@ function stick() {
       },5500);
       }else{
         document.getElementById('prologue').style.display = 'none';
-
+       
 
       }
-}
+       
+       }
  function breakBuffers(){
   var sw = screen.width;
   var buffers = document.getElementsByClassName("buffer");
