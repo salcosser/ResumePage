@@ -20,7 +20,7 @@
   <div class="col-md-4" style="text-align:center">
   <table class="links"style="display: inline-block">
       <tr>
-         <td><a href="Resume-Jul20.pdf"><img src="img/resumeicon.jpg" class="icon"><br />Resume</td></a>
+         <td><a href="Resume-Aug20.pdf"><img src="img/resumeicon.jpg" class="icon"><br />Resume</td></a>
           <td><a href="https://www.linkedin.com/in/samuel-alcosser-9212b3181/"><img src="img/linkedinIcon.png" class="icon"><br />LinkedIn</td></a>
            <td><a href="mailto:samuel.alcosser1@marist.edu"><img src="img/emailIcon.png" class="icon"><br />Email</td> </a>
           <td><a href="https://github.com/salcosser"><img src="img/githubIcon.jpg" class="icon"><br />GitHub</td></a>
