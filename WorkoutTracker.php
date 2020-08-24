@@ -1,6 +1,6 @@
 <?php require("header.php");?>
 
-      
+
 
 <div class="jumbotron">
 
@@ -44,7 +44,7 @@
 
   <p class="project-copy">
 
-&nbsp The project featured here was my final project for my software development 1 class. The goal was to create a workout tracker for myself that would let me keep track of the workouts that I complete, as well as doing some minor metrics work. Because of the fact that there was going to be a fair amount of data that I would want to store in a non-volitile way, I knew that I would have to use a database. Before this, my only experience with databases was building out the forum for the <a href="teamrcf.php">teamRCF website</a>, and that was using php to connect. I also frequently met with my professor for guidance, as doing database work in Java was a whole new ball game for me. He instructed me to use Hibernate. </p>
+&nbsp The project featured here was my final project for my Software Development I class. The goal was to create a workout tracker for myself that kept record of the workouts I complete, as well as building sinple metrics features. Due to the amount of data that I would want to store in a non-volitile way, I knew that I would have to use a database. Before this, my only experience with databases was building out the forum for the <a href="teamrcf.php">teamRCF website</a>. This site uses php to connect to a database. I frequently met with my professor for guidance throughout the process, as working with databases in Java was something I had not done prior. He instructed me to use Hibernate. </p>
  </p>
 
  </div>
@@ -54,7 +54,7 @@
 <div class="col-md-4 screenshot" ><img src="img/homepage.PNG" class="img"></div>
  <div class="col-md-8">
 <p class="project-copy">
-&nbsp This was a software designed to make the connection between Java and SQL more fluid. Without it, one would have to use JDBC, an archaic method involving writing out every SQL command before sending it. That is not to say that Hibernate makes it easy, There is a lot to learn about setting up the classes so they can communicate the data accurately to the database, although Hibernate does make it much cleaner to work with once everything is set up. I ended up also using MySQL Workbench in order to keep track of the databases, which made it very simple. </p>
+&nbsp Hibernate is designed to make the connection between Java and SQL more fluid. Without it, one would have to use JDBC, an archaic method which involves writing out every SQL command before sending it. That is not to say that Hibernate makes it easy. Although there was a lot to learn about setting up the mapping classes, Hibernate does make it much easier to work with once everything is set up. I ended up also using MySQL Workbench in order to keep track of the database tables, which made it very simple. </p>
 </div>
 
 </div>
@@ -64,11 +64,11 @@
 <div class="col-md-4 screenshot" ><img src="img/metrics.PNG" class="img"></div>
 <div class="col-md-8">
 <p class="project-copy">
-&nbsp This project is still a work in progress, as I am planning to roll out an update that would let users calculate their max weight for each number of reps, from within the application. The main function is workout tracking by exercise with weight, reps, and sets. Other functionality includes injury tracking, and the ability to look at basic metrics including your hardest you've hit each exercise, and seeing the maximum weight you have ever used for each exercise. Some side functionality is the ability to have multiple users. 
+&nbsp Although this program was submitted as a final project for my Software Development I class, I am planning to roll out an update that would let users calculate their max weight for each number of reps. The main function is workout tracking by exercise with weight, reps, and sets. Other functionalities include: injury tracking, the ability to view basic metrics including the maximum weight you have used for each exercise. Some side functionality is the ability to have multiple users.
 </p>
 </div>
 
-  </div>   
+  </div>
 
   <div class="col-12 text-center cs-button-container">
     <button class=" btn "  onclick="showCode()">Give me a taste of the code! (double-click)</button>
@@ -97,7 +97,7 @@ eDones.add(eDonesW.get(a));
 ArrayList&#x3C;exerciseDone&#x3E; maxesList = new ArrayList&#x3C;&#x3E;(); //holding the highest rep count of each exercise
 ArrayList&#x3C;exerciseDone&#x3E; currEx = new ArrayList&#x3C;&#x3E;(); // holding the distinct exercises as they are compared
 for(int i = 0; i&#x3C;exList.size();i++) { //going through each exercise
-int currE = exList.get(i).getIdExercises(); //getting the PK to compare to 
+int currE = exList.get(i).getIdExercises(); //getting the PK to compare to
 for(int j = 0;j&#x3C;eDones.size();j++) { //going through each of the exercises done
 if(eDones.get(j).getExerciseId() == currE) {
 currEx.add(eDones.get(j));
@@ -118,20 +118,20 @@ continue;
 }
 currEx.clear();
 }
-} 
+}
 </code></pre>
 </div>
 
 
 
-  
+
   </div>
   </div>
 </div>
 
-      
-     
-  
+
+
+
 
 
 <?php require("footer.php");?>

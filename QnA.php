@@ -91,7 +91,13 @@ school. Other than academics, I also work as a software developer with Marist's 
         </div>
     </div>
 </div>
-
+<div class="row">
+    <div class="card col-12">
+        <div class="card-body">
+            <h4 class="display-4 text-center">About This Site</h4>
+            <p class="text-center">This site was built using the Bootstrap 4 CSS and JavaScript Framework. a software called Prism is used to colorize the code snippets on each of the project pages. </p>
+</div>
+</div>
 <?php require("footer.php");?>
   
   </body>
