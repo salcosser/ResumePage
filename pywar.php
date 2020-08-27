@@ -1,6 +1,6 @@
 <?php require("header.php");?>
 
-  
+
 
 
 <div class="jumbotron">
@@ -43,17 +43,17 @@
 
   <p class="project-copy">
 
-&nbsp   This project was really about pushing the limits of what I could do with pure Python, aside from the graphics package. This was one of my first full projects, and the first program that I ever made using Python on my own. This project, which was my final project for Intro to Programming, plays the card game War against itself until one "player" either runs out of cards or they play 100 hands. At that point, the "player" with the greatest amount of cards wins. This limit was put on as during testing, there were some matches that would last over 2000 hands.  </p>
+&nbsp    This project was my first logic-based programming project. This project, which was my final project for my Intro to Programming class, plays the card game War against itself. For the uninitiated, War is a simple card game in which both players play the top card in their stack, and the highest card wins and that player takes both cards. If both cards match, both players put down three cards and one face up to compete again, the winner gets both stacks. In the real version players play until one player runs out of cards, although in my version there is a limit on the number of matches at 100 matches. At this point, the player with the highest number of cards will win. </p>
 
  </div>
- 
+
 </div>
 <div style="height:50px"></div>
 <div class="row ca" >
 <div class="col-md-4 screenshot" ><img src="img/console.PNG" class="img"></div>
  <div class="col-md-8">
 <p class="project-copy">
-&nbspThe code itself is quite simple, although I loved making it. This program was my first introduction into object oriented programming, and it shows in the code. I made my own classes for the decks of cards and for the games. It took me a while to figure out how to make a deck of cards out of two arrays, but my method of putting each card into a string and parsing it out afterwards proved useful. The algorithm for the game was more complicated. </p>
+&nbspOne higher level concept that I used was the stack data structure. This enabled the functionality of the stacks of cards. The most difficult issue that I faced logically was the recursion issue of going into double and triple war. The only user input is how many times the deck is shuffled, as the computer plays against itself. The implementation of the graphics module was used to make a simple poker table, to simulate the play area.</p>
 </div>
 
 </div>
@@ -64,11 +64,11 @@
 <div class="col-md-8">
 <p class="project-copy">
 
-&nbsp In the end, The algorithm could easily be mapped out with a decision tree, but at the time I was just going off of what I thought would work. I actually developed my own way of interpreting the two stacks. Also, as a side note, the game will only go into double war, after that, the hand is split evenly and re-dealt, making sure to shuffle the stack prior to avoid an infinite loop. The only user input is how many times the deck is shuffled, as the computer plays against itself. The implementation of the graphics module was used to make a simple poker table, to simulate the play area.
+&nbsp The logic of the code itself is quite simple, although I loved making it. This program was my first introduction into object-oriented programming. I created my own classes for the decks of cards and for the games. After some time, I was able to figure out how to make a deck of cards out of two arrays, but my method of putting each card into a string and parsing it out afterwards proved useful. The algorithm for the game was more complicated. In the end, the algorithm could easily be mapped out with a decision tree, but at the time I was just going off of what I thought would work. 
 </p>
 </div>
 
-  </div>   
+  </div>
 
   <div class="col-12 text-center cs-button-container">
     <button class=" btn "  onclick="showCode()">Give me a taste of the code! (double-click)</button>
@@ -121,15 +121,15 @@ self.player1H.append(card)
 tempstack = []
 print(len(self.player1H))
 print(len(self.player2H))
-games = games + 1 
+games = games + 1
 </code></pre>
 </div>
   </div>
 </div>
 
-      
-     
-  
+
+
+
 
 <?php require("footer.php");?>
 </body>

@@ -1,8 +1,8 @@
 <?php require("header.php");?>
 
-  
 
-      
+
+
 
 <div class="jumbotron">
 
@@ -44,17 +44,16 @@
 
   <p class="project-copy">
 
-&nbsp To begin, I am aware that it would be much more elegant to have a hyperlink to the page, although, it is no longer active. Other than the fees of hosting it, I was not sure that the climbers and their parents would be very happy with the photos being public. Although, all of the source code is on the GitHub link. This project was the hardest thing I had ever done at the time. I was just getting into my senior year of high school and I wanted to start programming. The obvious place to start was a website. So, I decided to take it upon myself to make a website for my rock climbing team, hence the name teamrcf.com.  </p>
-
+&nbsp The main focus of this project was to teach myself how to write code, and hopefully how to write code that would result in a finished product. This project was done within the framework of an independent study at my high school during my senior year. In my opinion, the best place to start with creating a usable product with code was to build a website. I decided that the optimal topic for this site would be my youth rock climbing team. Once the topic was decided I began chipping away at the most difficult project I had ever taken on. At this point, I should also mention that the website is no longer live due to privacy reasons as well as the financial cost to host it.</p>
  </div>
- 
+
 </div>
 <div style="height:50px"></div>
 <div class="row ca" >
 <div class="col-md-4 screenshot" ><img src="img/Contact Page.PNG" class="img"></div>
  <div class="col-md-8">
 <p class="project-copy">
-&nbsp Through this project I got my first experience of the type of problem solving I would have to do later on down the line as a programmer. I taught myself HTML and CSS through books that I bought. I Then used online resources, mainly w3schools.com. This website helped me with all that I would need to know to get started, even with CSS. I then obviously turned to Stack Overflow for my JavaScript questions. I would search for hours looking for solutions. I then felt so accomplished when I would succeed in taking advice from a fellow developer and implementing it into my own project. </p>
+&nbsp The main benefits of this project for me came in three parts: technical skill, system design and UI/UX design, and confidence in my technical abilities. The site is not very impressive when reviewed for what it is, although to me this site was much more than just the final product. To me, this site was the way in which I was able to gain fundamental knowledge of how to think like a designer, how to think like a programmer, and how to think like the user. This new way of thinking I discovered is essential to how a developer works. Without the ability to see the product from different perspectives, the end result will not be able to reach its full potential.  </p>
 </div>
 
 </div>
@@ -63,10 +62,10 @@
 
 <div class="col-md-4 screenshot" ><img src="img/Team Forum Login.PNG" class="img"></div>
 <div class="col-md-8">
-<p class="project-copy"> &nbspOnce the frontend was done, I wanted to tackle a bigger challenge. Building a forum from the ground up for the climbing team. This forum was complete with different permission levels for team members, parents, and coaches. This meant getting into the territory of backend development. Here I learned how to use PHP and SQL to keep up the backend of websites. It was a great experience being able to be the graphic designer, the frontend developer, and the backend developer. This was my first attempt at programming in general, and in some places in the source code this is very apparent. In the end, All that mattered was that I started at nothing, and ended with a working product. </p>
-</div>
+<p class="project-copy"> &nbspOther than these softer skills, I also learned about front end and back end languages. For the front end of the site, I learned HTML and CSS. I toyed with using JavaScript, although I never pursued the language much at that point. I also never looked into any frontend frameworks at this time, mostly because I was not aware that they existed. On the backend, I learned how to use PHP and SQL well enough to build out more complex functionality such as CAPTCHA verification on sign in, as well as a custom-built forum. There was a fair amount of hand holding from the likes of Stack Overflow and w3schools, but in the end I was able to complete a project I am still proud of to this day. </p>
+ </div>
 
-  </div>   
+  </div>
 
   <div class="col-12 text-center cs-button-container">
     <button class=" btn "  onclick="showCode()">Give me a taste of the code! (double-click)</button>
@@ -103,15 +102,15 @@ mysqli_free_result($userCheckResult);
 mysqli_free_result($userErrorResult);
 mysqli_close($connection);
 redirect_to($url);
-} 
+}
 </code></pre>
   </div>
   </div>
 </div>
 
-      
-     
-  
+
+
+
 
 
 <?php require("footer.php");?>
