@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 
   <head>
@@ -46,7 +47,7 @@
 <script src="prism.js"></script>
 </head>
 
-<body onload="javascript:sizing();">
+<body onload="javascript:sizing(),setMode()">
  <?php session_start();?>
 
 </div>

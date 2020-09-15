@@ -45,8 +45,12 @@
 <link rel="stylesheet" href="prism.css">
 <script src="prism.js"></script>
   </head>
-  <body onload="javascript:fade(document.getElementById('prologue')),sizing()">
-  <?php session_start();?>
+  <body onload="javascript:fade(document.getElementById('prologue')),sizing(),setMode()>
+  <?php 
+  session_start();
+  $_SESSION['mode'] = "Dark";
+  ?>
+  
   <style>
 .row{
   margin-right:0px;

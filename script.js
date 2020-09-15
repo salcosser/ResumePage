@@ -34,23 +34,35 @@ function revealQuestion(index){
 
         ans.classList.toggle('is-active');
 }
-
+var dark = "rgb(27, 44, 44)";
 function toggleMode(){
     
-    var dark = "rgb(27, 44, 44)";
+    
 
     let body = document.getElementsByTagName("body")[0];
     
     if(body.style.backgroundColor ==  "white"){
         document.getElementsByTagName("body")[0].style.backgroundColor = dark;
         document.getElementsByTagName("body")[0].style.color = "white";
-        
+        sessionStorage.setItem("mode","Dark");
         
     }else{
         document.getElementsByTagName("body")[0].style.backgroundColor = "white";
         document.getElementsByTagName("body")[0].style.color = dark;
-        
+        sessionStorage.setItem("mode","Light");
     }
 
 
+}
+function setMode(){
+    let defMode = sessionStorage.getItem("mode");
+    if(defMode == "Dark"){
+        document.getElementsByTagName("body")[0].style.backgroundColor = dark;
+        document.getElementsByTagName("body")[0].style.color = "white";
+       
+        
+    }else if(defMode == "Light"){
+        document.getElementsByTagName("body")[0].style.backgroundColor = "white";
+        document.getElementsByTagName("body")[0].style.color = dark;
+    }
 }
