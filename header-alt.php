@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-
+<?php
+session_start();
+$_SESSION['mode'] = "Dark"
+?>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -45,12 +48,8 @@
 <link rel="stylesheet" href="prism.css">
 <script src="prism.js"></script>
   </head>
-  <body onload="javascript:fade(document.getElementById('prologue')),sizing(),setMode()>
-  <?php 
-  session_start();
-  $_SESSION['mode'] = "Dark";
-  ?>
-  
+  <body onload="javascript:fade(document.getElementById('prologue')),sizing(),setMode()">
+ 
   <style>
 .row{
   margin-right:0px;
