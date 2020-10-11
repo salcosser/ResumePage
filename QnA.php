@@ -20,11 +20,14 @@
 </div>
 
 </div>
-
-
-
-
-
+<!--
+          "Don't feel as if the key to successful computing is
+          only in your hands. What's in your hands, I think and
+          hope, is intelligence: the ability to see the machine as
+          more than when you were first led up to it, that you can
+          make it more."
+          —Alan J. Perlis (April 1, 1922 — February 7, 1990)
+-->
 
 
 
@@ -82,7 +85,7 @@ A: When I'm not at college, I am constantly looking for ways to better myself in
     <div class="card col-12">
         <div class="card-body">
             <h4 class="display-4 text-center">About This Site</h4>
-            <p class="text-center">This site was built using the Bootstrap 4 CSS and JavaScript Framework. a software called Prism is used to colorize the code snippets on each of the project pages. </p>
+            <p class="text-center">This site was built using the Bootstrap 4 CSS and JavaScript Framework. a software called Prism is used to colorize the code snippets on each of the project pages.</p>
 </div>
 </div>
 <?php require("footer.php");?>
