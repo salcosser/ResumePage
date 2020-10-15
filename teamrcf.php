@@ -79,30 +79,30 @@
 
 <pre><code class="language-php" style="font-size:2vmin !important; line-height:.8 !important">
 if ($resp-&#x3E;is_valid){
-$full_name = mysqli_escape_string($connection, $full_name);
-$username = mysqli_escape_string($connection, $username);
-$email = mysqli_escape_string($connection, $email);
-$passwordArray = password_encrypt($password);
-$hashyHash = $passwordArray[0];
-$saltySalt = $passwordArray[1];
-$userCreateQuery = &#x22;INSERT INTO users ( fullName, username, email, passypass, salt ) VALUES (&#x27;{$full_name}&#x27;, &#x27;{$username}&#x27;, &#x27;{$email}&#x27;, &#x27;{$hashyHash}&#x27;, &#x27;{$saltySalt}&#x27;);&#x22;;
-$setUser = mysqli_query($connection, $userCreateQuery);
-$userErrorCheck=&#x22;SELECT username FROM users WHERE username = &#x27;{$username}&#x27;&#x22;;
-$userErrorResult= mysqli_query($connection, $userCheckQuery);
-$userErrorRows = mysqli_num_rows($userErrorResult);
-if($userErrorRows === 0){
-// this catches the rare case of an insert statement to SQL not functioning properly
-$message = &#x22;An error occured, please try again.&#x22;;
-$full_name = urlencode($full_name);
-$email = urlencode($email);
-$username =urlencode($username);
-$submit = urlencode($submit);
-$url = &#x22;http://localhost/teamrcf/php/forum/CreateAccount.php?s={$submit}&#x26;m={$message}&#x26;fn={$full_name}&#x26;e={$email}&#x26;u={$username}&#x22;;
-mysqli_free_result($userCheckResult);
-mysqli_free_result($userErrorResult);
-mysqli_close($connection);
-redirect_to($url);
-}
+	$full_name = mysqli_escape_string($connection, $full_name);
+	$username = mysqli_escape_string($connection, $username);
+	$email = mysqli_escape_string($connection, $email);
+	$passwordArray = password_encrypt($password);
+	$hashyHash = $passwordArray[0];
+	$saltySalt = $passwordArray[1];
+	$userCreateQuery = &#x22;INSERT INTO users ( fullName, username, email, passypass, salt ) VALUES (&#x27;{$full_name}&#x27;, &#x27;{$username}&#x27;, &#x27;{$email}&#x27;, &#x27;{$hashyHash}&#x27;, &#x27;{$saltySalt}&#x27;);&#x22;;
+	$setUser = mysqli_query($connection, $userCreateQuery);
+	$userErrorCheck=&#x22;SELECT username FROM users WHERE username = &#x27;{$username}&#x27;&#x22;;
+	$userErrorResult= mysqli_query($connection, $userCheckQuery);
+	$userErrorRows = mysqli_num_rows($userErrorResult);
+	if($userErrorRows === 0){
+		// this catches the rare case of an insert statement to SQL not functioning properly
+		$message = &#x22;An error occured, please try again.&#x22;;
+		$full_name = urlencode($full_name);
+		$email = urlencode($email);
+		$username =urlencode($username);
+		$submit = urlencode($submit);
+		$url = &#x22;http://localhost/teamrcf/php/forum/CreateAccount.php?s={$submit}&#x26;m={$message}&#x26;fn={$full_name}&#x26;e={$email}&#x26;u={$username}&#x22;;
+		mysqli_free_result($userCheckResult);
+		mysqli_free_result($userErrorResult);
+		mysqli_close($connection);
+		redirect_to($url);
+	}
 </code></pre>
   </div>
   </div>

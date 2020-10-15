@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <?php
 session_start();
-$_SESSION['mode'] = "Dark"
+$_SESSION['mode'] = "Dark";
+
 ?>
   <head>
     <meta charset="utf-8">
@@ -47,8 +48,10 @@ $_SESSION['mode'] = "Dark"
 <meta name="theme-color" content="#ffffff">
 <link rel="stylesheet" href="prism.css">
 <script src="prism.js"></script>
+
   </head>
-  <body onload="javascript:fade(document.getElementById('prologue')),sizing(),setMode()">
+
+<body onload="javascript:fade(document.getElementById('prologue')),sizing(),setMode()">
 
   <style>
 .row{
@@ -58,16 +61,18 @@ $_SESSION['mode'] = "Dark"
 
 </style>
   <script>
+      var prologue = document.getElementById('prologue');
+    function turnOff(){
+        document.getElementById("prologue").style.display = "none";
+    }
 
 
 
-
-
-   var prologue = document.getElementById('prologue');
 
     function fade(element) {
 
       if(screen.width >= 500){
+
       setTimeout(function(){
         var op = 1;  // initial opacity
         var timer = setInterval(function () {
@@ -79,10 +84,10 @@ $_SESSION['mode'] = "Dark"
         element.style.filter = 'alpha(opacity=' + op * 100 + ")";
         op -= op * 0.08;
     }, 50);
-      },7500);
+      },4500);
       }else{
         document.getElementById('prologue').style.display = 'none';
-
+        
 
       }
 
@@ -180,3 +185,10 @@ $_SESSION['mode'] = "Dark"
 
 
       </div>
+<?php
+    if($_SESSION['ran'] >= 1){
+        echo '<script type="text/JavaScript">document.getElementById("prologue").style.display = "none";console.log("turnedOff");</script>';
+    }
+
+
+?>
