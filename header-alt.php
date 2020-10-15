@@ -124,6 +124,10 @@ $_SESSION['mode'] = "Dark";
 </a>
   </li>
 
+      <li class="nav-item">
+
+          <a class="nav-link active" href="MIPC.php">MIP Connector</a>
+      </li>
   <li class="nav-item">
 
        <a class="nav-link active" href="WorkoutTracker.php">Workout Tracker</a>
@@ -134,15 +138,8 @@ $_SESSION['mode'] = "Dark";
        <a class="nav-link active" href="teamrcf.php">Team RCF Website (Not Live)</a>
   </li>
 
-  <li class="nav-item">
 
-       <a class="nav-link active" href="pywar.php">pyWar</a>
-  </li>
 
-   <li class="nav-item">
-
-       <a class="nav-link active" href="QnA.php">(Not So) FAQs</a>
-  </li>
 
 
   </ul>
@@ -162,6 +159,9 @@ $_SESSION['mode'] = "Dark";
 </div>
 
       <div class="content">
+          <div class="row">
+
+          <div class="col-md-6">
       <div class="row" id="links">
 
         <ul class="list-unstyled" >
@@ -185,6 +185,20 @@ $_SESSION['mode'] = "Dark";
 
 
       </div>
+          </div>
+              <div class="col-md-6">
+
+                  <div class="card" >
+                      <div class="card-body">
+                          <img src="img/headshot.png" style="max-height:20%!important;" class="img-fluid">
+                      </div>
+
+                      <div class="card-footer">
+                          &nbsp I’m Sam Alcosser. I am an (aspiring) full stack web developer. As seen in this portfolio, I have many technical skills in back end technologies such as SQL, Java, Scala, and PHP. I also am competent with the three main web languages, HTML/CSS and JavaScript, and I am also comfortable using Bootstrap 4. I am currently studying computer science at Marist College in Poughkeepsie, NY. I have also been working with Collective Strategies through Marist College since September of 2019. I hope you enjoy my site!
+                      </div>
+                  </div>
+              </div>
+          </div>
 <?php
     if($_SESSION['ran'] >= 1){
         echo '<script type="text/JavaScript">document.getElementById("prologue").style.display = "none";console.log("turnedOff");</script>';

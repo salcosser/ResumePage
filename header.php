@@ -64,6 +64,10 @@ $_SESSION['ran'] = 1;
     <a class="nav-link active" href="index.php" tabindex="-1" aria-disabled="true"><i class="fa fa-home" aria-hidden="true"></i>
 </a>
   </li>
+      <li class="nav-item">
+
+          <a class="nav-link active" href="MIPC.php">MIP Connector</a>
+      </li>
 
   <li class="nav-item">
     
@@ -75,15 +79,8 @@ $_SESSION['ran'] = 1;
        <a class="nav-link active" href="teamrcf.php">Team RCF Website (Not Live)</a>
   </li>
 
-  <li class="nav-item">
-    
-       <a class="nav-link active" href="pywar.php">pyWar</a>
-  </li>
 
-   <li class="nav-item">
-    
-       <a class="nav-link active" href="QnA.php">(Not So) FAQs </a>
-  </li>
+
 
 
   </ul>
