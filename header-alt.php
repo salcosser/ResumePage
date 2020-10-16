@@ -180,6 +180,8 @@ $_SESSION['mode'] = "Dark";
           <li> <code>13</code> <span style="color:rgb(141, 220, 246)">System.out.</span><span style="color:lightgreen">println</span>(<span style="color:darkorange !important">"<a href="Resume.pdf">Resume</a>"</span>);</li>
           <li> <code>14</code> <span style="color:lightgreen">std::</span><span style="color:rgb(141, 220, 246)">cout</span> <span style="color: lightgreen"><< </span><span style="color:darkorange !important">"<a href="https://www.linkedin.com/in/samuel-alcosser-9212b3181/">LinkedIn</a>"</span><span style="color:lightgreen"> << std::</span><span style="color:lightyellow">endl;</span></li>
           <li> <code>15</code> <span style="color:rgb(43, 113, 226)">print</span>(<span style="color:darkorange">"<a href="https://github.com/salcosser">GitHub</a>"</span><span id="last">)</span></li>
+            <li><code>16</code></li>
+            <li><code>17</code></li>
 
             </ul>
 
@@ -189,12 +191,12 @@ $_SESSION['mode'] = "Dark";
               <div class="col-md-6">
 
                   <div class="card" >
-                      <div class="card-body">
-                          <img src="img/headshot.png" style="max-height:20%!important;" class="img-fluid">
+                      <div class="card-body" style="scale:.65;margin-top:-10%">
+                          <img src="img/headshot.png"  class="img-fluid">
                       </div>
 
-                      <div class="card-footer">
-                          &nbsp I’m Sam Alcosser. I am an (aspiring) full stack web developer. As seen in this portfolio, I have many technical skills in back end technologies such as SQL, Java, Scala, and PHP. I also am competent with the three main web languages, HTML/CSS and JavaScript, and I am also comfortable using Bootstrap 4. I am currently studying computer science at Marist College in Poughkeepsie, NY. I have also been working with Collective Strategies through Marist College since September of 2019. I hope you enjoy my site!
+                      <div style="margin-top:-10%;border: none;width:.85" class="card-footer">
+                          &nbsp <h5 style="color:salmon">Hi, I’m Sam Alcosser.</h5> I am an (aspiring) full stack web developer. As seen in this portfolio, I have many technical skills in back end technologies such as SQL, Java, Scala, and PHP. I also am competent with the three main web languages, HTML/CSS and JavaScript, and I am also comfortable using Bootstrap 4. I am currently studying computer science at Marist College in Poughkeepsie, NY. I have also been working with Collective Strategies through Marist College since September of 2019. I hope you enjoy my site!
                       </div>
                   </div>
               </div>
