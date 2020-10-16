@@ -50,7 +50,7 @@
 
   <p class="project-copy">
 
-      &nbsp I have been working with the CCAC agile development team at Marist College since September of 2019. My work entails building middleware for an accounting company called Collective Strategies. The major product we are developing is called MIP Connector. MIP Connector is a multi-tenant program that allows multiple accountants with to have an easy connection among multiple accounting programs. The program connects the grant management tool called Amplifund, Abila’s MIP accounting database tool, and Salesforce. All of the processing is done within our middleware which is based on the Play Framework. I apologize for the lack of screenshots for this project. There is not much to see on the front end of this program, as most of the work is done behind the scenes within the API. </div>
+      &nbsp I have been working with the CCAC agile development team at Marist College since September of 2019. My work entails building middleware for an accounting company called Collective Strategies. The major product we are developing is called MIP Connector. MIP Connector is a multi-tenant program that allows multiple accountants to have an easy connection among multiple accounting programs. The program connects the grant management tool called Amplifund, Abila’s MIP accounting database tool, and Salesforce. All of the processing is done within our middleware which is based on the Play Framework. I apologize for the lack of screenshots for this project. There is not much to see on the front end of this program, as most of the work is done behind the scenes within the API. </div>
 </div>
 <div style="height:50px"></div>
 <div class="row ca" >
