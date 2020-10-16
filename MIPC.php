@@ -13,10 +13,10 @@
         <div class="col-lg-4">
         <ul>
       <li>
-        <span> > Languages used: Java, Scala, CSS, HTML, JavaScript, SQL
+        <span> > Languages used: Java, Scala, CSS, HTML, JavaScript, and SQL
       </li>
       <li>
-        <span> > Frameworks and other bits used: Play Framework, 4dflib, MIP API, Amplifund API, Salesforce API </span>
+        <span> > Frameworks and other bits used: Play Framework, 4dflib, MIP API, Amplifund API, and the Salesforce API </span>
       </li>
 
 

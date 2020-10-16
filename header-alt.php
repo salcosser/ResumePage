@@ -195,8 +195,8 @@ $_SESSION['mode'] = "Dark";
                           <img src="img/headshot.png"  class="img-fluid">
                       </div>
 
-                      <div style="margin-top:-10%;border: none;width:.85" class="card-footer">
-                          &nbsp <h5 style="color:salmon">Hi, I’m Sam Alcosser.</h5> I am an (aspiring) full stack web developer. As seen in this portfolio, I have many technical skills in back end technologies such as SQL, Java, Scala, and PHP. I also am competent with the three main web languages, HTML/CSS and JavaScript, and I am also comfortable using Bootstrap 4. I am currently studying computer science at Marist College in Poughkeepsie, NY. I have also been working with Collective Strategies through Marist College since September of 2019. I hope you enjoy my site!
+                      <div style="margin-top:-15%;border: none;width:.85" class="card-footer">
+                          &nbsp <h3 style="color:salmon">Hi, I’m Sam Alcosser.</h3> I am an (aspiring) full stack web developer. As seen in this portfolio, I have many technical skills in back end technologies such as SQL, Java, Scala, and PHP. I also am competent with the three main web languages, HTML/CSS and JavaScript, and I am also comfortable using Bootstrap 4. I am currently studying computer science at Marist College in Poughkeepsie, NY. I have also been working with Collective Strategies through Marist College since September of 2019. I hope you enjoy my site!
                       </div>
                   </div>
               </div>
