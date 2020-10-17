@@ -1,5 +1,10 @@
-<?php session_start();
-$_SESSION['ran'] = 1;
+<?php
+if(session_id() == '' || !isset($_SESSION)) {
+
+    session_start();
+    $_SESSION['ran'] = 1;
+}
+
 ?>
 
 <!DOCTYPE html>
