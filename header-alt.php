@@ -233,9 +233,9 @@ if(session_id() == '' || !isset($_SESSION)) {
         </div>
 
 <?php
-if ($_SESSION['ran'] >= 1) {
-    echo '<script type="text/JavaScript">document.getElementById("prologue").style.display = "none";console.log("turnedOff");</script>';
-}
+
+    echo '<script type="text/JavaScript">document.getElementById("prologue").style.display = "none";console.log("turnedOff");</script>'; //hotfix for sessions not working
+
 
 
 ?>
