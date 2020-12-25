@@ -20,7 +20,7 @@
   <div class="col-md-4" style="text-align:center">
   <table class="links"style="display: inline-block">
       <tr >
-         <td><a href="Resume.pdf"><img style="height:4vmin;width:4vmin" class="icon" src="img/NegativeRes.svg" alt="Resume"><br /></td></a>
+         <td><a href="Resume.pdf"><img style="height:4vmin;width:4vmin" class="icon" src="img/NegativeRes_1.svg" alt="Resume"><br /></td></a>
           <td><a href="https://www.linkedin.com/in/samuel-alcosser-9212b3181/"><i class="fab fa-linkedin icon "></i><br /></td></a>
            <td><a href="mailto:samuel.alcosser1@marist.edu"><i class="fas fa-envelope icon"></i><br /></td> </a>
           <td><a href="https://github.com/salcosser"><i class=" icon fab fa-github-square"></i><br /></td></a>
