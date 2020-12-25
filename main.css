@@ -267,9 +267,8 @@ ul{
 
 
 .icon{
-    height:50px;
-    width:50px;
-    
+    font-size: 4vmin;
+    margin-left:5px !important;
 }
 .icon:hover{
     opacity: .65 !important;
