@@ -84,11 +84,11 @@ if (session_id() == '' || !isset($_SESSION)) {
 
                             <li class="nav-item">
 
-                                <a class="nav-link active" href="teamrcf.php">Team RCF Website | (Not Live)</a>
+                                <a class="nav-link active" href="teamrcf.php">Team RCF Website (Not Live)</a>
                             </li>
                             <li class="nav-item">
 
-                                <a class="nav-link active" href="DSA.php">DSA Work | New!</a>
+                                <a class="nav-link active" href="DSA.php">Some Documentation | New!</a>
                             </li>
 
                         </ul>

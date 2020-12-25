@@ -143,11 +143,11 @@ if (session_id() == '' || !isset($_SESSION)) {
 
                             <li class="nav-item">
 
-                                <a class="nav-link active" href="teamrcf.php">Team RCF Website | (Not Live)</a>
+                                <a class="nav-link active" href="teamrcf.php">Team RCF Website (Not Live)</a>
                             </li>
                             <li class="nav-item">
 
-                                <a class="nav-link active" href="DSA.php">DSA Work | New!</a>
+                                <a class="nav-link active" href="DSA.php">Some Documentation | New!</a>
                             </li>
 
                         </ul>
@@ -175,7 +175,7 @@ if (session_id() == '' || !isset($_SESSION)) {
                             <img src="img/headshot.png" class="img-fluid">
                         </div>
 
-                        <div style="margin-top:-15%;border: none;width:.85;font-size:2vmin" class="card-footer">
+                        <div style="margin-top:-5%;border: none;width:.85;font-size:2vmin" class="card-footer">
                             &nbsp <h3 style="color:salmon; font-family: 'Roboto Mono', monospace;">Hi, I’m Sam Alcosser.</h3> I am an (aspiring) full stack web
                             developer. As seen in this portfolio, I have many technical skills in back end technologies such
                             as SQL, Java, Scala, and PHP. I also am competent with the three main web languages, HTML/CSS
