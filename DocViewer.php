@@ -12,7 +12,7 @@ switch ($_GET['doc']) {
         break;
     case "a3":
         $page = "Binary Search and Hash Table";
-        $link = "docs/Assinment_3.pdf";
+        $link = "docs/Assignment_3.pdf";
         break;
     case "a4":
         $page = "Graphs and Binary Search Trees";
