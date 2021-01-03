@@ -27,7 +27,7 @@
 </div>
 <div class="row">
     <div class="col-md-4 card" style="border: 2px solid lightgray">
-        <h6 class="roboto card-header"><a href="DocViewer.php?doc=a1">Assignment 1 | Stacks and Queues</a></h6>
+        <h6 class="roboto card-header"><a href="docs/Assignment1Documentation.pdf">Assignment 1 | Stacks and Queues</a></h6>
         <div class="card-body">
             The task of this project was to use stacks and queues, which we wrote ourselves,
             to be able to test whether or not each item of a 666 line text document is a
