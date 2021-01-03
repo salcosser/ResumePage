@@ -51,7 +51,7 @@ switch ($_GET['doc']) {
 
 </div>
 <div class="row">
-    <iframe src="<?php echo $link ?>" width="100%" height="1000px">
+<embed src="<?php echo $link?>" width="100%" height="1000px" type="application/pdf">
 </div>
 
 
