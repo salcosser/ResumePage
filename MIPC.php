@@ -6,7 +6,7 @@
 
 <div class="row">
   <div class="col-lg-8">
-  <h3 class="display-3"style="color:salmon">MIP Connector and Check Request Tool</h3>
+  <h3 class="display-3"style="color:salmon">MIP Connector</h3>
   <h4 class="display-4">Accounting Middleware</h4>
   </div>
 
@@ -52,16 +52,7 @@
 
       &nbsp I have been working with the CCAC agile development team at Marist College since September of 2019. My work entails building middleware for an accounting company called Collective Strategies. The major product we are developing is called MIP Connector. MIP Connector is a multi-tenant program that allows multiple accountants to have an easy connection among multiple accounting programs. The program connects the grant management tool called Amplifund, Abila’s MIP accounting database tool, and Salesforce. All of the processing is done within our middleware which is based on the Play Framework. I apologize for the lack of screenshots for this project. There is not much to see on the front end of this program, as most of the work is done behind the scenes within the API. </div>
 </div>
-<div style="height:50px"></div>
-<div class="row ca" >
-<div class="col-md-4 screenshot" ><img src="img/play.png" class="img"></div>
- <div class="col-md-8">
-<p class="project-copy">
 
-    &nbspOne of the main focuses I had in the beginning of my time with CCAC was the Check Request Tool. Check request tool, simply put, is a faster way for accountants to access information from MIP. Each session contains documents, which contain transactions. There are sessions, documents, and transactions for Cash Receipts and Journal Vouchers. The models and processing of these session types were my responsibility. This was a great opportunity for me to delve into how the Play MVC Framework functions. The project I am working on currently more has to do with the basis of MIP Connector.
- </div>
-
-</div>
 <div style="height:50px"></div>
 <div class="row cb" >
 
@@ -72,7 +63,17 @@
 </div>
 
   </div>
+  <div style="height:50px"></div>
+<div class="row ca" >
+<div class="col-md-4 screenshot" ><img src="img/play.png" class="img"></div>
+ <div class="col-md-8">
+<p class="project-copy">
 
+    &nbspBeyond just learning about Play Framework, this project has also given me the opportunity to learn and experiment with other technologies. For example, one feature that was to be implemented for the client was an email system to notify users of data mismatches in record processing. For the email system to work, I taught myself how to use dependency injection to correctly send the emails. Beyond dependency injection, the real improvements came from me learning about threading in Java. To avoid having the emails slow down the batch process, I put the emails on threads. Another feature that was refactored to use threads was a sequential process that was taking upwards of 45 minutes to process in some cases. After utilizing threads, this process was running in around 5 minutes.</p>
+
+ </div>
+
+</div>
   <div class="col-12 text-center cs-button-container">
     <button class=" btn "  onclick="showCode()">Give me a taste of the code! (double-click)</button>
   </div>
