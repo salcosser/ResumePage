@@ -175,7 +175,7 @@ if (session_id() == '' || !isset($_SESSION)) {
                             <img src="img/headshot.png" class="img-fluid">
                         </div>
 
-                        <div style="margin-top:-5%;border: none;width:.85;font-size:2vmin" class="card-footer">
+                        <div style="margin-top:-5%;border: none;width:.85;font-size:2vmin" style=" transition-property: background-color, color;transition-duration: .5s;background-color:transparent!" class="card-footer">
                             &nbsp <h3 style="color:salmon; font-family: 'Roboto Mono', monospace;">Hi, I’m Sam Alcosser.</h3> I am an (aspiring) full stack web
                             developer. As seen in this portfolio, I have many technical skills in back end technologies such
                             as SQL, Java, Scala, and PHP. I also am competent with the three main web languages, HTML/CSS

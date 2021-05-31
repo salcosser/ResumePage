@@ -7,7 +7,7 @@
 
 
   <div class="col-md-4">
-    <p>Currently studying Computer Science at Marist College in Poughkeepsie, NY. Open to inquries about internships and entry level development jobs.</p>
+    <p>Currently studying Computer Science at Marist College in Poughkeepsie, NY. <!--Open to inquries about internships and entry level development jobs.--></p>
   </div>
 
 

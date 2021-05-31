@@ -59,10 +59,19 @@ function setMode(){
     if(defMode == "Dark"){
         document.getElementsByTagName("body")[0].style.backgroundColor = dark;
         document.getElementsByTagName("body")[0].style.color = "white";
-       
+        // var links = document.getElementById("links");
+        // if( links != null){
+        //    document.getElementById("links").style.backgroundColor = dark;
+        //     console.log("toggling");
+        // }
         
     }else if(defMode == "Light"){
         document.getElementsByTagName("body")[0].style.backgroundColor = "white";
         document.getElementsByTagName("body")[0].style.color = dark;
+        // var links = document.getElementById("links");
+        // if( links != null){
+        //    document.getElementById("links").style.backgroundColor = "white";
+        //     console.log("toggling");
+        // }
     }
 }
