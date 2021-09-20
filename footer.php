@@ -7,7 +7,7 @@
 
 
   <div class="col-md-4">
-    <p>Currently studying Computer Science at Marist College in Poughkeepsie, NY. Open to inquries about internships and entry level development jobs.</p>
+    <p>Currently studying Computer Science at Marist College in Poughkeepsie, NY. <!--Open to inquries about internships and entry level development jobs.--></p>
   </div>
 
 
@@ -19,11 +19,11 @@
 
   <div class="col-md-4" style="text-align:center">
   <table class="links"style="display: inline-block">
-      <tr>
-         <td><a href="Resume.pdf"><img src="img/resumeicon.jpg" class="icon"><br />Resume</td></a>
-          <td><a href="https://www.linkedin.com/in/samuel-alcosser-9212b3181/"><img src="img/linkedinIcon.png" class="icon"><br />LinkedIn</td></a>
-           <td><a href="mailto:samuel.alcosser1@marist.edu"><img src="img/emailIcon.png" class="icon"><br />Email</td> </a>
-          <td><a href="https://github.com/salcosser"><img src="img/githubIcon.jpg" class="icon"><br />GitHub</td></a>
+      <tr >
+         <td><a href="Resume.pdf"><img style="height:4vmin;width:4vmin" class="icon" src="img/NegativeRes_1.svg" alt="Resume"><br /></td></a>
+          <td><a href="https://www.linkedin.com/in/samuel-alcosser-9212b3181/"><i class="fab fa-linkedin icon "></i><br /></td></a>
+           <td><a href="mailto:samuel.alcosser1@marist.edu"><i class="fas fa-envelope icon"></i><br /></td> </a>
+          <td><a href="https://github.com/salcosser"><i class=" icon fab fa-github-square"></i><br /></td></a>
       </tr>
 
   </table>

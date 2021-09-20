@@ -33,6 +33,14 @@
 </div>
 
 </div>
+<!--
+          "Don't feel as if the key to successful computing is
+          only in your hands. What's in your hands, I think and
+          hope, is intelligence: the ability to see the machine as
+          more than when you were first led up to it, that you can
+          make it more."
+          —Alan J. Perlis (April 1, 1922 — February 7, 1990)
+-->
 <div class="row cb" >
 
 
@@ -88,36 +96,36 @@ List&#x3C;exercises&#x3E; exList = sessionE.createQuery(&#x22;from exercises&#x2
 List&#x3C;Workout&#x3E; wOId = sessionWO.createQuery(&#x22;from Workout w where w.userId = &#x22; + cUser.getId()).getResultList();
 List&#x3C;exerciseDone&#x3E; eDones = new ArrayList&#x3C;&#x3E;();
 for(int b = 0;b&#x3C;wOId.size();b++) {
-List&#x3C;exerciseDone&#x3E; eDonesW = sessionED.createQuery(&#x22;from exerciseDone e where e.wO.workoutid = &#x22; +wOId.get(b).getWorkoutid()).getResultList();
-for(int a = 0;a&#x3C;eDonesW.size(); a++) {
-eDones.add(eDonesW.get(a));
-}
+	List&#x3C;exerciseDone&#x3E; eDonesW = sessionED.createQuery(&#x22;from exerciseDone e where e.wO.workoutid = &#x22; +wOId.get(b).getWorkoutid()).getResultList();
+	for(int a = 0;a&#x3C;eDonesW.size(); a++) {
+		eDones.add(eDonesW.get(a));
+	}
 }
 //resources
 ArrayList&#x3C;exerciseDone&#x3E; maxesList = new ArrayList&#x3C;&#x3E;(); //holding the highest rep count of each exercise
 ArrayList&#x3C;exerciseDone&#x3E; currEx = new ArrayList&#x3C;&#x3E;(); // holding the distinct exercises as they are compared
 for(int i = 0; i&#x3C;exList.size();i++) { //going through each exercise
-int currE = exList.get(i).getIdExercises(); //getting the PK to compare to
-for(int j = 0;j&#x3C;eDones.size();j++) { //going through each of the exercises done
-if(eDones.get(j).getExerciseId() == currE) {
-currEx.add(eDones.get(j));
-continue;
-}
-if(currEx.size() &#x3E;= 1) {
-int[] mReps = new int[currEx.size()]; //array to hold the total reps of each exercise done
-for(int k = 0; k&#x3C;currEx.size();k++) {
-mReps[k] = ( (currEx.get(k).getReps())*(currEx.get(k).getSets() )); //computing
-}
-int bInmReps = indexOfMax(mReps); //getting the index of the exercise with the most reps out of the list
-System.out.println(mReps[bInmReps]);
-System.out.println(&#x22;reps&#x22;+ currEx.get(bInmReps).getReps());
-maxesList.add(currEx.get(indexOfMax(mReps)));
-}
-else {
-continue;
-}
-currEx.clear();
-}
+	int currE = exList.get(i).getIdExercises(); //getting the PK to compare to
+	for(int j = 0;j&#x3C;eDones.size();j++) { //going through each of the exercises done
+		if(eDones.get(j).getExerciseId() == currE) {
+			currEx.add(eDones.get(j));
+			continue;
+		}
+		if(currEx.size() &#x3E;= 1) {
+			int[] mReps = new int[currEx.size()]; //array to hold the total reps of each exercise done
+			for(int k = 0; k&#x3C;currEx.size();k++) {
+				mReps[k] = ( (currEx.get(k).getReps())*(currEx.get(k).getSets() )); //computing
+			}
+			int bInmReps = indexOfMax(mReps); //getting the index of the exercise with the most reps out of the list
+			System.out.println(mReps[bInmReps]);
+			System.out.println(&#x22;reps&#x22;+ currEx.get(bInmReps).getReps());
+			maxesList.add(currEx.get(indexOfMax(mReps)));
+		}
+		else {
+			continue;
+		}
+		currEx.clear();
+	}
 }
 </code></pre>
 </div>

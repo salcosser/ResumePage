@@ -28,7 +28,7 @@ body{
     font-size:7vmin;
 }
 .project-copy{
-    font-size:5vmin;
+    font-size:3vmin;
 }
 /* phones */
 @media only screen and (max-width: 375px) {
@@ -75,7 +75,7 @@ body{
 }
 #links ul{
     font-weight: 500;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu Mono', monospace;
     color:white;
 }
 #links a{
@@ -239,13 +239,8 @@ ul{
     
 }
 
-.ca{
-   
-    
-}
-
-.cb{
-   
+.roboto{
+    font-family: 'Roboto Mono', monospace !important;
 }
 .cs-button-container button{
     margin:100px 0px 50px 0px;
@@ -272,9 +267,8 @@ ul{
 
 
 .icon{
-    height:50px;
-    width:50px;
-    
+    font-size: 4vmin;
+    margin-left:5px !important;
 }
 .icon:hover{
     opacity: .65 !important;

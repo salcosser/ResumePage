@@ -23,6 +23,15 @@ rest of their life.
 
 
 
+<a href="MIPC.php">
+    <div class="showCase "  style="background-color: white !important">
+        <img class="pic" src="img/Collective.png" alt="MIP Conn">
+        <div class="overlay">
+            <h1 class=" text">MIP Connector</h1>
+        </div>
+    </div>
+</a>
+
      <a href="WorkoutTracker.php">
 <div class="showCase " style="background-color: black !important">
     <img class="  pic" src="img/wt.png" alt="workoutTracker">
@@ -38,14 +47,6 @@ rest of their life.
      <div class="overlay">
       <h1 class=" text">Team RCF Website (Not Live)</h1>
     </div>
-</div>
-</a>
-    <a href="pywar.php">
-<div class="showCase "  style="background-color: #00D586 !important">
-   <img class="pic" src="img/pyWar.png" alt="workoutTracker">
-   <div class="overlay">
-<h1 class=" text">pyWar</h1>
-</div>
 </div>
 </a>
 
