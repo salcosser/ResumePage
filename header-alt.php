@@ -203,7 +203,7 @@ if (session_id() == '' || !isset($_SESSION)) {
                             <li><code>12</code> <span style="color:rgb(141, 220, 246)">console.</span><span style="color:lightgreen">log</span>(<span style="color:darkorange !important">"<a href="mailto:samalcosser@gmail.com">Email</a>"</span>);
                             </li>
                             <li><code>13</code> <span style="color:rgb(141, 220, 246)">System.out.</span><span style="color:lightgreen">println</span>(<span style="color:darkorange !important">"<a href="Resume.pdf">Resume (.pdf)</a>"</span>);
-                            <li><code>14</code> <span style="color:rgb(141, 220, 246)">System.out.</span><span style="color:lightgreen">println</span>(<span style="color:darkorange !important">"<a href="Resume.docx">Resume (.docx)</a>"</span>);
+                            <li><code>14</code> <span style="color:rgb(141, 220, 246)">System.out.</span><span style="color:lightgreen">println</span>(<span style="color:darkorange !important">"<a href="Resume.docx" download>Resume (.docx)</a>"</span>);
                             </li>
                             <li><code>15</code> <span style="color:lightgreen">std::</span><span style="color:rgb(141, 220, 246)">cout</span> <span style="color: lightgreen">
                                     << </span> <span style="color:darkorange !important">"<a href="https://www.linkedin.com/in/samuel-alcosser-9212b3181/">LinkedIn</a>"
