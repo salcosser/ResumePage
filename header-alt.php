@@ -202,19 +202,20 @@ if (session_id() == '' || !isset($_SESSION)) {
                             <li><code>11</code> <span style="color:darkgreen">// Links to Relevant Resources</span></li>
                             <li><code>12</code> <span style="color:rgb(141, 220, 246)">console.</span><span style="color:lightgreen">log</span>(<span style="color:darkorange !important">"<a href="mailto:samalcosser@gmail.com">Email</a>"</span>);
                             </li>
-                            <li><code>13</code> <span style="color:rgb(141, 220, 246)">System.out.</span><span style="color:lightgreen">println</span>(<span style="color:darkorange !important">"<a href="Resume.pdf">Resume</a>"</span>);
+                            <li><code>13</code> <span style="color:rgb(141, 220, 246)">System.out.</span><span style="color:lightgreen">println</span>(<span style="color:darkorange !important">"<a href="Resume.pdf">Resume (.pdf)</a>"</span>);
+                            <li><code>14</code> <span style="color:rgb(141, 220, 246)">System.out.</span><span style="color:lightgreen">println</span>(<span style="color:darkorange !important">"<a href="Resume.docx" download>Resume (.docx)</a>"</span>);
                             </li>
-                            <li><code>14</code> <span style="color:lightgreen">std::</span><span style="color:rgb(141, 220, 246)">cout</span> <span style="color: lightgreen">
+                            <li><code>15</code> <span style="color:lightgreen">std::</span><span style="color:rgb(141, 220, 246)">cout</span> <span style="color: lightgreen">
                                     << </span> <span style="color:darkorange !important">"<a href="https://www.linkedin.com/in/samuel-alcosser-9212b3181/">LinkedIn</a>"
-                                </span><span style="color:lightgreen">
-                                    << std::</span> <span style="color:lightyellow">endl;
-                                </span></li>
-                            <li><code>15</code> <span style="color:rgb(43, 113, 226)">print</span>(<span style="color:darkorange">"<a href="https://github.com/salcosser">GitHub</a>"</span><span id="last">)</span>
+                                        </span><span style="color:lightgreen">
+                                            << std::</span> <span style="color:lightyellow">endl;
+                                                </span></li>
+                            <li><code>16</code> <span style="color:rgb(43, 113, 226)">print</span>(<span style="color:darkorange">"<a href="https://github.com/salcosser">GitHub</a>"</span><span id="last">)</span>
                             </li>
-                            <li><code>16</code></li>
                             <li><code>17</code></li>
                             <li><code>18</code></li>
                             <li><code>19</code></li>
+                            <li><code>20</code></li>
 
                         </ul>
 
