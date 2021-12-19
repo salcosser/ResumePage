@@ -24,7 +24,7 @@ rest of their life.
 </script>
 
 <a href="SamOS.php">
-  <div class="showCase " style="background-color: white !important">
+  <div class="showCase " style="background-color: #70291D !important">
     <img class="pic" src="img/samosIcon.png" alt="SamOS">
     <div class="overlay">
       <h1 class=" text">SamOS</h1>
