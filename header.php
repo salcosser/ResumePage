@@ -63,37 +63,41 @@ if (session_id() == '' || !isset($_SESSION)) {
     <div class="collapse" id="navbarToggleExternalContent">
       <div class="bg-dark p-4">
 
-      <nav class="nav navbar-expand-sm bg-dark navbar-dark nbar">
-                        <ul>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="index.php" tabindex="-1" aria-disabled="true"><i class="fa fa-home" aria-hidden="true"></i>
-                                </a>
-                            </li>
+        <nav class="nav navbar-expand-sm bg-dark navbar-dark nbar">
+          <ul>
+            <li class="nav-item">
+              <a class="nav-link active" href="index.php" tabindex="-1" aria-disabled="true"><i class="fa fa-home" aria-hidden="true"></i>
+              </a>
+            </li>
 
 
+            <li class="nav-item">
 
-                            <li class="nav-item">
+              <a class="nav-link active" href="SamOS.php">SamOS| New!</a>
+            </li>
+            <li class="nav-item">
 
-                                <a class="nav-link active" href="MIPC.php">MIP Connector</a>
-                            </li>
+              <a class="nav-link active" href="MIPC.php">MIP Connector</a>
+            </li>
 
-                            <li class="nav-item">
+            <li class="nav-item">
 
-                                <a class="nav-link active" href="WorkoutTracker.php">Workout Tracker</a>
-                            </li>
+              <a class="nav-link active" href="WorkoutTracker.php">Workout Tracker</a>
+            </li>
 
-                            <li class="nav-item">
+            <li class="nav-item">
 
-                                <a class="nav-link active" href="teamrcf.php">Team RCF Website (Not Live)</a>
-                            </li>
-                            <li class="nav-item">
+              <a class="nav-link active" href="teamrcf.php">Team RCF Website (Not Live)</a>
+            </li>
 
-                                <a class="nav-link active" href="DSA.php">Some Documentation | New!</a>
-                            </li>
+            <li class="nav-item">
 
-                        </ul>
+              <a class="nav-link active" href="DSA.php">Some Documentation</a>
+            </li>
 
-                    </nav>
+          </ul>
+
+        </nav>
 
       </div>
     </div>

@@ -130,7 +130,10 @@ if (session_id() == '' || !isset($_SESSION)) {
                             </li>
 
 
+                            <li class="nav-item">
 
+                                <a class="nav-link active" href="SamOS.php">SamOS| New!</a>
+                            </li>
                             <li class="nav-item">
 
                                 <a class="nav-link active" href="MIPC.php">MIP Connector</a>
@@ -145,10 +148,12 @@ if (session_id() == '' || !isset($_SESSION)) {
 
                                 <a class="nav-link active" href="teamrcf.php">Team RCF Website (Not Live)</a>
                             </li>
+
                             <li class="nav-item">
 
-                                <a class="nav-link active" href="DSA.php">Some Documentation | New!</a>
+                                <a class="nav-link active" href="DSA.php">Some Documentation</a>
                             </li>
+
 
                         </ul>
 
