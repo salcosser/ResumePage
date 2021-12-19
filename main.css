@@ -28,7 +28,7 @@ body{
     font-size:7vmin;
 }
 .project-copy{
-    font-size:3vmin;
+    font-size:2vmin;
 }
 /* phones */
 @media only screen and (max-width: 375px) {
