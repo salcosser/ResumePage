@@ -49,7 +49,7 @@
 
 
 
-    <div class="col-md-4 screenshot"><img src="img/console.png" class="img"></div>
+    <div class="col-md-4 screenshot"><img src="img/screen.png" class="img"></div>
     <div class="col-md-8">
 
         <p class="project-copy">
