@@ -27,7 +27,9 @@
                 <li>
                     <span> > <code>git clone https://github.com/salcosser/SamOS.git</code></span>
                 </li>
-
+                <li>
+                    <p><a href="https://www.labouseur.com/commondocs/operating-systems/SamOS/index.html">Demo Hosted on Dr. Alan Labouseur's website</a></p>
+                </li>
 
 
             </ul>
