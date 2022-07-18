@@ -9,7 +9,7 @@
  
 
 
-  <div class="col-md-4" >
+  <div class="col-md-8" >
     <span> Personal Email: <a href="mailto:samalcosser@gmail.com">samalcosser@gmail.com</a></span><br />
     <span> School Email: <a href="mailto:samuel.alcosser1@marist.edu">samuel.alcosser1@marist.edu</a></span>
   </div>

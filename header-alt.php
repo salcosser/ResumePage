@@ -182,8 +182,8 @@ if (session_id() == '' || !isset($_SESSION)) {
 
                         <div style="margin-top:-5%;border: none;width:.85;font-size:2vmin" style=" transition-property: background-color, color;transition-duration: .5s;background-color:transparent!" class="card-footer">
                             &nbsp <h3 style="color:salmon; font-family: 'Roboto Mono', monospace;">Hi, I’m Sam Alcosser.</h3> I am a software
-                            developer Working at Silver Point Capital. As seen in this portfolio, I have many technical skills in back end technologies such
-                            as SQL,C#, Java, Scala, and PHP. I also am competent with the three main web languages, HTML/CSS
+                            developer working at Silver Point Capital. As seen in this portfolio, I have many technical skills in back end technologies such
+                            as SQL, C#, Java, Scala, and PHP. I also am competent with the three main web languages, HTML/CSS
                             and JavaScript, and I am also comfortable using Bootstrap 4. I graduated with a degree in computer
                             science from Marist College in 2022. I hope you enjoy my site!
                         </div>
